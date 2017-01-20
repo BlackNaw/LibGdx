@@ -29,7 +29,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-android" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Asteroids" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-core" type="4"/>
+<item elementID="=Snake-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-desktop" type="4"/>
 <item elementID="=asteroids-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=asteroids-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>

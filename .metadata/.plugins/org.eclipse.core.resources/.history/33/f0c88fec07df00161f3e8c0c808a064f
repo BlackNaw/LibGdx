@@ -1,0 +1,6 @@
+package com.black.asteroid;
+
+public interface Moveable {
+
+	public void mover();
+}

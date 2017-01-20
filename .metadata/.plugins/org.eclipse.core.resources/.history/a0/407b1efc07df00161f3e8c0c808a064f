@@ -1,0 +1,8 @@
+package Interfaces;
+
+import com.black.asteroid.Rectangulo;
+
+public interface Actualizable {
+
+	public boolean actualizar(Rectangulo cuerpo);
+}

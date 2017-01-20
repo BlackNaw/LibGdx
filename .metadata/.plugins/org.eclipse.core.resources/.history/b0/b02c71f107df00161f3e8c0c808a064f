@@ -1,0 +1,8 @@
+package Elementos;
+
+import com.black.asteroid.Rectangulo;
+
+public interface Colisionable {
+
+	public boolean comprobarColision(Rectangulo cuerpo);
+}

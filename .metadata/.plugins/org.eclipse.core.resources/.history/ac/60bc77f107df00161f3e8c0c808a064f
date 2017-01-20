@@ -1,0 +1,6 @@
+package Elementos;
+
+public interface Moveable {
+
+	public void mover();
+}

@@ -25,11 +25,11 @@
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Pintable"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Alimento"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Colision"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Elemento"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Cambiable"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Rectangulo"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Posicion"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
 </qualifiedTypeNameHistroy>

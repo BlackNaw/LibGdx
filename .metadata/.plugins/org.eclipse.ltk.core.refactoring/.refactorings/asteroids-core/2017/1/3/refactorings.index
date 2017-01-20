@@ -1,2 +1,17 @@
 1484913234223	Rename resource 'asteroideEstrella.png'
 1484913239236	Rename resource 'XWing.png'
+1484913580818	Move compilation units
+1484913589081	Move compilation units
+1484913594060	Rename package 'Elementos'
+1484913606940	Rename package 'Interfaces'
+1484913631557	Rename package 'Comun'
+1484913646983	Move compilation unit
+1484913654719	Rename type 'Alimento'
+1484913661098	Move compilation unit
+1484913664506	Move compilation unit
+1484913671912	Move compilation unit
+1484913685518	Move compilation units
+1484913704828	Delete element
+1484913819018	Rename field 'alimento'
+1484913832825	Rename field 'Nave'
+1484915746905	Delete element

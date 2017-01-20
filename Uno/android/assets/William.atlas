@@ -1,0 +1,376 @@
+
+William.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+William Attack
+  rotate: false
+  xy: 1, 376
+  size: 100, 130
+  orig: 100, 130
+  offset: 0, 0
+  index: 20
+William Attack
+  rotate: false
+  xy: 1, 231
+  size: 86, 143
+  orig: 86, 143
+  offset: 0, 0
+  index: 19
+William Attack
+  rotate: false
+  xy: 1, 91
+  size: 85, 138
+  orig: 85, 138
+  offset: 0, 0
+  index: 18
+William Attack
+  rotate: false
+  xy: 103, 377
+  size: 89, 129
+  orig: 89, 129
+  offset: 0, 0
+  index: 1
+William Attack
+  rotate: false
+  xy: 194, 416
+  size: 119, 90
+  orig: 119, 90
+  offset: 0, 0
+  index: 21
+William Attack
+  rotate: false
+  xy: 315, 420
+  size: 106, 86
+  orig: 106, 86
+  offset: 0, 0
+  index: 2
+William Attack
+  rotate: false
+  xy: 423, 433
+  size: 109, 73
+  orig: 109, 73
+  offset: 0, 0
+  index: 12
+William Attack
+  rotate: false
+  xy: 1, 1
+  size: 93, 88
+  orig: 93, 88
+  offset: 0, 0
+  index: 13
+William Attack
+  rotate: false
+  xy: 534, 405
+  size: 84, 101
+  orig: 84, 101
+  offset: 0, 0
+  index: 3
+William Attack
+  rotate: false
+  xy: 620, 410
+  size: 82, 96
+  orig: 82, 96
+  offset: 0, 0
+  index: 7
+William Attack
+  rotate: false
+  xy: 704, 408
+  size: 79, 98
+  orig: 79, 98
+  offset: 0, 0
+  index: 8
+William Idle
+  rotate: false
+  xy: 785, 405
+  size: 73, 101
+  orig: 73, 101
+  offset: 0, 0
+  index: 2
+William Idle
+  rotate: false
+  xy: 860, 405
+  size: 73, 101
+  orig: 73, 101
+  offset: 0, 0
+  index: 3
+William Idle
+  rotate: false
+  xy: 935, 404
+  size: 73, 102
+  orig: 73, 102
+  offset: 0, 0
+  index: 4
+William Attack
+  rotate: false
+  xy: 89, 247
+  size: 68, 127
+  orig: 68, 127
+  offset: 0, 0
+  index: 17
+William Attack
+  rotate: false
+  xy: 159, 260
+  size: 48, 115
+  orig: 48, 115
+  offset: 0, 0
+  index: 16
+William Idle
+  rotate: false
+  xy: 209, 310
+  size: 73, 104
+  orig: 73, 104
+  offset: 0, 0
+  index: 7
+William Attack
+  rotate: false
+  xy: 284, 310
+  size: 48, 104
+  orig: 48, 104
+  offset: 0, 0
+  index: 15
+William Idle
+  rotate: false
+  xy: 334, 314
+  size: 73, 104
+  orig: 73, 104
+  offset: 0, 0
+  index: 10
+William Attack
+  rotate: false
+  xy: 209, 217
+  size: 78, 91
+  orig: 78, 91
+  offset: 0, 0
+  index: 6
+William Attack
+  rotate: false
+  xy: 289, 206
+  size: 58, 102
+  orig: 58, 102
+  offset: 0, 0
+  index: 4
+William Idle
+  rotate: false
+  xy: 349, 208
+  size: 72, 104
+  orig: 72, 104
+  offset: 0, 0
+  index: 8
+William Idle
+  rotate: false
+  xy: 409, 314
+  size: 72, 104
+  orig: 72, 104
+  offset: 0, 0
+  index: 9
+William Idle
+  rotate: false
+  xy: 423, 209
+  size: 73, 103
+  orig: 73, 103
+  offset: 0, 0
+  index: 6
+William Attack
+  rotate: false
+  xy: 483, 317
+  size: 76, 86
+  orig: 76, 86
+  offset: 0, 0
+  index: 10
+William Idle
+  rotate: false
+  xy: 498, 212
+  size: 73, 103
+  orig: 73, 103
+  offset: 0, 0
+  index: 12
+William Attack
+  rotate: false
+  xy: 561, 329
+  size: 48, 74
+  orig: 48, 74
+  offset: 0, 0
+  index: 11
+William Idle
+  rotate: false
+  xy: 573, 225
+  size: 73, 102
+  orig: 73, 102
+  offset: 0, 0
+  index: 5
+William Idle
+  rotate: false
+  xy: 88, 127
+  size: 73, 102
+  orig: 73, 102
+  offset: 0, 0
+  index: 11
+William Idle
+  rotate: false
+  xy: 96, 23
+  size: 73, 102
+  orig: 73, 102
+  offset: 0, 0
+  index: 13
+William Attack
+  rotate: false
+  xy: 573, 131
+  size: 73, 92
+  orig: 73, 92
+  offset: 0, 0
+  index: 5
+William Idle
+  rotate: false
+  xy: 498, 108
+  size: 73, 102
+  orig: 73, 102
+  offset: 0, 0
+  index: 14
+William Idle
+  rotate: false
+  xy: 423, 106
+  size: 73, 101
+  orig: 73, 101
+  offset: 0, 0
+  index: 15
+William Attack
+  rotate: false
+  xy: 349, 105
+  size: 72, 101
+  orig: 72, 101
+  offset: 0, 0
+  index: 22
+William Attack
+  rotate: false
+  xy: 573, 37
+  size: 77, 92
+  orig: 77, 92
+  offset: 0, 0
+  index: 9
+William Idle
+  rotate: false
+  xy: 498, 5
+  size: 73, 101
+  orig: 73, 101
+  offset: 0, 0
+  index: 16
+William Idle
+  rotate: false
+  xy: 423, 5
+  size: 73, 99
+  orig: 73, 99
+  offset: 0, 0
+  index: 27
+William Attack
+  rotate: false
+  xy: 171, 8
+  size: 71, 95
+  orig: 71, 95
+  offset: 0, 0
+  index: 14
+William Idle
+  rotate: false
+  xy: 244, 2
+  size: 72, 101
+  orig: 72, 101
+  offset: 0, 0
+  index: 1
+William Idle
+  rotate: false
+  xy: 318, 2
+  size: 72, 101
+  orig: 72, 101
+  offset: 0, 0
+  index: 17
+William Idle
+  rotate: false
+  xy: 171, 105
+  size: 72, 99
+  orig: 72, 99
+  offset: 0, 0
+  index: 19
+William Idle
+  rotate: false
+  xy: 245, 105
+  size: 72, 99
+  orig: 72, 99
+  offset: 0, 0
+  index: 28
+William Idle
+  rotate: false
+  xy: 648, 306
+  size: 73, 100
+  orig: 73, 100
+  offset: 0, 0
+  index: 29
+William Idle
+  rotate: false
+  xy: 648, 203
+  size: 72, 101
+  orig: 72, 101
+  offset: 0, 0
+  index: 31
+William Idle
+  rotate: false
+  xy: 723, 305
+  size: 73, 98
+  orig: 73, 98
+  offset: 0, 0
+  index: 20
+William Idle
+  rotate: false
+  xy: 722, 203
+  size: 72, 100
+  orig: 72, 100
+  offset: 0, 0
+  index: 18
+William Idle
+  rotate: false
+  xy: 798, 305
+  size: 73, 98
+  orig: 73, 98
+  offset: 0, 0
+  index: 21
+William Idle
+  rotate: false
+  xy: 796, 203
+  size: 72, 100
+  orig: 72, 100
+  offset: 0, 0
+  index: 30
+William Idle
+  rotate: false
+  xy: 873, 304
+  size: 73, 98
+  orig: 73, 98
+  offset: 0, 0
+  index: 22
+William Idle
+  rotate: false
+  xy: 870, 204
+  size: 73, 98
+  orig: 73, 98
+  offset: 0, 0
+  index: 23
+William Idle
+  rotate: false
+  xy: 948, 304
+  size: 73, 98
+  orig: 73, 98
+  offset: 0, 0
+  index: 24
+William Idle
+  rotate: false
+  xy: 945, 204
+  size: 73, 98
+  orig: 73, 98
+  offset: 0, 0
+  index: 25
+William Idle
+  rotate: false
+  xy: 652, 103
+  size: 73, 98
+  orig: 73, 98
+  offset: 0, 0
+  index: 26

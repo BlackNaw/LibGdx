@@ -1,0 +1,23 @@
+package com.mygdx.game;
+
+import com.badlogic.gdx.graphics.Texture;
+
+public class Actor extends Elemento implements Moveable, Actualizable{
+
+	Direccion actual=Direccion.norte;
+	Avance avance = new Avance(0, 0);
+	public Actor(Posicion posicion, Texture imagen) {
+		super(posicion, imagen);
+	}
+
+	@Override
+	public void actualizar() {
+		mover();
+	}
+
+	@Override
+	public void mover() {
+		
+	}
+
+}

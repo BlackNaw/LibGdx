@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484649741707_1" label="Teoria" name="Teoria">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Uno-android" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Uno" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MoverWilliam-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SondeoUno" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Uno-desktop" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Hola Mundo-android" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HolaMundo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MoverWilliam" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SondeoUno-android" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Uno-core" type="4"/>
+<item elementID="=TradicionalUno-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Hola Mundo-desktop" type="4"/>
+<item elementID="=TradicionalUno-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EventosUno-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EventosUno-android" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MoverWilliam-android" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TradicionalUno" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EventosUno-desktop" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SondeoUno-desktop" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MoverWilliam-desktop" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EventosUno" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Hola Mundo-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SondeoUno-core" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484649768506_2" label="Trabajos" name="Trabajos">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake" type="4"/>
+<item elementID="=Snake-android" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Asteroids" type="4"/>
+<item elementID="=Snake-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Snake-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=asteroids-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=asteroids-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484649454662_0" label="Window Working Set" name="Aggregate for window 1484649454662"/>
+<mruList name="Trabajos"/>
+<mruList name="Teoria"/>
+</workingSetManager>

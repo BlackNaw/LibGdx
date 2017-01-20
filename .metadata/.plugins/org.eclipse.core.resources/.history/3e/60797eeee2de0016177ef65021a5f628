@@ -1,0 +1,21 @@
+package com.mygdx.game;
+
+public class Rectangulo {
+
+	public Posicion posicion;
+	public int ancho, alto;
+	public int arriba, derecha;
+	
+	
+	public Rectangulo(Posicion posicion, int ancho, int alto) {
+		super();
+		this.posicion = posicion;
+		this.ancho = ancho;
+		this.alto = alto;
+		this.arriba = posicion.x+ancho;
+		this.derecha = posicion.y+alto;
+	}
+	
+	
+	
+}

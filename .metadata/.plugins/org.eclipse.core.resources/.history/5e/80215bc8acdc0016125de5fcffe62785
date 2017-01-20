@@ -1,0 +1,25 @@
+package com.game.snake;
+
+public enum DireccionesE {
+	norte("sur"), sur("norte"), este("oeste"), oeste("este");
+
+	String contradireccion;
+
+	private DireccionesE(String contradireccion) {
+		this.contradireccion = contradireccion;
+	}
+	public static DireccionesE getContraDireccion(DireccionesE direccionesE){
+		switch (direccionesE.contradireccion) {
+		case "sur":
+			return sur;
+		case "norte": 
+			return norte;
+		case "oeste": 
+			return oeste;
+		case "este": 
+			return este;
+		default:
+			return null;
+		}
+	}
+}

@@ -1,0 +1,32 @@
+package com.mygdx.game;
+
+public class Avance extends Posicion implements Direccionable {
+
+	public Avance(int x, int y) {
+		super(x, y);
+	}
+
+	@Override
+	public void direccionar(Direccion direccion) {
+		ponerACero();
+		switch (direccion) {
+		case norte:
+			y = 1;
+			break;
+		case sur:
+			y = -1;
+			break;
+		case este:
+			x = 1;
+			break;
+		case oeste:
+			x = -1;
+			break;
+		}
+	}
+
+	private void ponerACero() {
+		x = 0;
+		y = 0;
+	}
+}

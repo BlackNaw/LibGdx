@@ -1,0 +1,12 @@
+package com.mygdx.game;
+
+import com.badlogic.gdx.graphics.Texture;
+
+public class Alimento extends Elemento implements Cambiable{
+
+	public Alimento(Posicion posicion, Texture imagen) {
+		super(posicion, imagen);
+		// TODO Auto-generated constructor stub
+	}
+
+}

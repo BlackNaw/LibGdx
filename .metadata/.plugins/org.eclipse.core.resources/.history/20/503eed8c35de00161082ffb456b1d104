@@ -1,0 +1,29 @@
+package com.mygdx.game;
+
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+
+public class Actor extends Elemento implements Moveable, Actualizable {
+
+	Direccion actual = Direccion.norte;
+	Avance avance;
+
+	public Actor(Posicion posicion, Texture imagen) {
+		super(posicion, imagen);
+		avance= new Avance(actual);
+	}
+
+	@Override
+	public void actualizar() {
+		mover();
+	}
+
+	@Override
+	public void mover() {
+		avance.direccionar(actual);
+		posicion.x += avance.x;
+		posicion.y += avance.y;
+	}
+
+	public void draw(SpriteBatch batch)
+}

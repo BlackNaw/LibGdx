@@ -1,0 +1,26 @@
+package com.mygdx.game;
+
+public class Rectangulo {
+
+	public Posicion posicion;
+	public int ancho, alto;
+	public int arriba, derecha;
+
+	public Rectangulo(Posicion posicion, int ancho, int alto) {
+		super();
+		this.posicion = posicion;
+		this.ancho = ancho;
+		this.alto = alto;
+		this.derecha = posicion.x + ancho;
+		this.arriba = posicion.y + alto;
+	}
+	
+	
+	public boolean contiene(Rectangulo rectangulo) {
+		return true;
+	}
+	
+	public boolean solapa(Rectangulo rectangulo) {
+		return false;
+	}
+}

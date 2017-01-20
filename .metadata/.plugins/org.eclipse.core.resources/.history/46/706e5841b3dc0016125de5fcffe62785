@@ -1,0 +1,98 @@
+package com.game.snake;
+
+import com.badlogic.gdx.ApplicationAdapter;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
+import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
+
+public class MyGdxGame extends ApplicationAdapter {
+	SpriteBatch batch;
+	Texture cabeza, alimento;
+	DireccionesE direccionActual = DireccionesE.norte;
+	TextureRegion regionCabeza;
+	float posCabezaX = 50, posCabezaY = 50, cabezaWidth = 50, cabezaHeight = 50, alimentoWitdh = 50,
+			alimentoHeight = 50;
+	float posAlimentoX, posAlimentoY;
+	float rotacion;
+	boolean derrota = false;
+
+	@Override
+	public void create() {
+		batch = new SpriteBatch();
+		cabeza = new Texture("cabeza.png");
+		alimento = new Texture("alimento.png");
+		posCabezaX = Gdx.graphics.getWidth() / 2 - cabezaWidth / 2;
+		posCabezaY = Gdx.graphics.getHeight() / 2 - cabezaHeight / 2;
+		regionCabeza = new TextureRegion(cabeza);
+	}
+
+	@Override
+	public void render() {
+		Gdx.gl.glClearColor(1, 0, 0, 1);
+		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+		comprobarPulsado();
+		moverSnake();
+		batch.begin();
+		if (!derrota) {
+			batch.draw(regionCabeza, posCabezaX, posCabezaY, cabezaWidth / 2, cabezaHeight / 2, cabezaWidth,
+					cabezaHeight, 1f, 1f, rotacion);
+			batch.draw(alimento, posAlimentoX, posAlimentoY, alimentoWitdh, alimentoHeight);
+		}
+		batch.end();
+	}
+
+	private boolean comprobarLimite(float posX, float posY) {
+		if (posX + cabezaWidth - 6 >= Gdx.graphics.getWidth() || posX + 6 <= 0) {
+			return false;
+		}
+		if (posY + cabezaHeight - 6 >= Gdx.graphics.getHeight() || posY + 6 <= 0) {
+			return false;
+		}
+		return true;
+	}
+
+	private void comprobarPulsado() {
+		if (Gdx.input.isKeyJustPressed(Input.Keys.LEFT)
+				&& DireccionesE.getContraDireccion(DireccionesE.este) != direccionActual) {
+			direccionActual = DireccionesE.oeste;
+		} else if (Gdx.input.isKeyJustPressed(Input.Keys.RIGHT)
+				&& DireccionesE.getContraDireccion(DireccionesE.oeste) != direccionActual) {
+			direccionActual = DireccionesE.este;
+		} else if (Gdx.input.isKeyJustPressed(Input.Keys.UP)
+				&& DireccionesE.getContraDireccion(DireccionesE.sur) != direccionActual) {
+			direccionActual = DireccionesE.norte;
+		} else if (Gdx.input.isKeyJustPressed(Input.Keys.DOWN)
+				&& DireccionesE.getContraDireccion(DireccionesE.norte) != direccionActual) {
+			direccionActual = DireccionesE.sur;
+		}
+	}
+
+	private void moverSnake() {
+		if (comprobarLimite(posCabezaX, posCabezaY)) {
+			if (direccionActual == DireccionesE.oeste) {
+				rotacion = 90;
+				posCabezaX--;
+			} else if (direccionActual == DireccionesE.este) {
+				posCabezaX++;
+				rotacion = -90;
+			} else if (direccionActual == DireccionesE.norte) {
+				posCabezaY++;
+				rotacion = 0;
+			} else if (direccionActual == DireccionesE.sur) {
+				posCabezaY--;
+				rotacion = 180;
+			}
+		} else {
+			derrota = true;
+		}
+	}
+
+	@Override
+	public void dispose() {
+		cabeza.dispose();
+		alimento.dispose();
+	}
+}

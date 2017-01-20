@@ -1,0 +1,25 @@
+package com.mygdx.game;
+
+import java.util.Random;
+
+import com.badlogic.gdx.graphics.Texture;
+
+public class Alimento extends Elemento implements Cambiable{
+
+	public Alimento(Texture imagen) {
+		super(posicion, imagen);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void cambiar() {
+		// TODO Auto-generated method stub
+		
+	}
+	public Posicion colocar(int ancho,int alto){
+		return new Posicion();
+	}
+	public int sorteo(int max){
+		return new Random().nextInt(max);
+	}
+}

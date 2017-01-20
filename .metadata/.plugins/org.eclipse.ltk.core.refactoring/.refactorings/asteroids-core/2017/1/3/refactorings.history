@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;asteroids-core/assets/asteroideEstrella.png&apos; to &apos;asteroide.png&apos;" description="Rename resource &apos;asteroideEstrella.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="assets/asteroideEstrella.png" name="asteroide.png" stamp="1484913234223" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;asteroids-core/assets/XWing.png&apos; to &apos;nave.png&apos;" description="Rename resource &apos;XWing.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="assets/XWing.png" name="nave.png" stamp="1484913239236" updateReferences="true"/>
+</session>

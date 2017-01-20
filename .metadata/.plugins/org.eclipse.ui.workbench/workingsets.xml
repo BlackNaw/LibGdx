@@ -27,10 +27,10 @@
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484649768506_2" label="Trabajos" name="Trabajos">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake" type="4"/>
-<item elementID="=Snake-android" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-android" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Asteroids" type="4"/>
-<item elementID="=Snake-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Snake-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-desktop" type="4"/>
 <item elementID="=asteroids-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=asteroids-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>

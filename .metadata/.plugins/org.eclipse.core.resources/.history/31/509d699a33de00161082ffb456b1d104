@@ -1,9 +1,0 @@
-package com.mygdx.game;
-
-
-public class Avance extends	Posicion implements Direccionable{
-
-	public Avance(int x, int y) {
-		super(x, y);
-	}
-}

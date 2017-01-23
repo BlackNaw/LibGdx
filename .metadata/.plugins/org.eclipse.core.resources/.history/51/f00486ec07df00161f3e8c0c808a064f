@@ -1,5 +1,0 @@
-package com.black.asteroid;
-
-public interface Cambiable {
-	public void cambiar();
-}

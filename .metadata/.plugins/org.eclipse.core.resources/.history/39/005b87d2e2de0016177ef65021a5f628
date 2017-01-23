@@ -1,9 +1,0 @@
-package com.mygdx.game;
-
-public class Rectangulo {
-
-	public Posicion posicion;
-	public int ancho, alto;
-	public int arriba=posicion.x+ancho, derecha=posicion.y+alto;
-	
-}

@@ -1,8 +1,0 @@
-package com.black.asteroid;
-
-import com.black.asteroid.Rectangulo;
-
-public interface Colisionable {
-
-	public boolean comprobarColision(Rectangulo cuerpo);
-}

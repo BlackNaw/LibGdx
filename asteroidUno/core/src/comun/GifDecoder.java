@@ -7,7 +7,9 @@ import java.io.ByteArrayOutputStream;
     import java.nio.ByteOrder;
     import java.util.ArrayList;
 
-    import com.badlogic.gdx.graphics.Color;
+import org.apache.commons.io.IOUtils;
+
+import com.badlogic.gdx.graphics.Color;
     import com.badlogic.gdx.graphics.Pixmap;
     import com.badlogic.gdx.graphics.Texture;
     import com.badlogic.gdx.graphics.Pixmap.Format;
@@ -924,12 +926,17 @@ import java.io.ByteArrayOutputStream;
             return result; //return animation object
         }   
         static GifDecoder gdec = new GifDecoder();
-        public static Animation loadGIFAnimation(PlayMode playType, byte[] is) {       
-            gdec.read(is);
+        public static Animation loadGIFAnimation(PlayMode playType, InputStream is) {  
+        	byte[] bytes;
+			try {
+				bytes = IOUtils.toByteArray(is);
+				gdec.read(bytes);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
             return gdec.getAnimation(playType);
         }
-        
-        
        
        
     }

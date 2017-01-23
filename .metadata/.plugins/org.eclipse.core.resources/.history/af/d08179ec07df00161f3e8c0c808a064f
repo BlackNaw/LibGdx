@@ -1,6 +1,0 @@
-package com.black.asteroid;
-
-public interface Actualizable {
-
-	public boolean actualizar(Rectangulo cuerpo);
-}

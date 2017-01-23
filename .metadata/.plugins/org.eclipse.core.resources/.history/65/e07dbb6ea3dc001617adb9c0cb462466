@@ -1,5 +1,0 @@
-package com.game.snake;
-
-public enum DireccionesE {
-
-}

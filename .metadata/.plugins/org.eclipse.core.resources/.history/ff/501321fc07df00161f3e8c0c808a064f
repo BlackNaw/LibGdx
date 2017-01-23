@@ -1,7 +1,0 @@
-package Interfaces;
-
-import com.black.asteroid.Direccion;
-
-public interface Direccionable {
-	public void direccionar(Direccion direccion);
-}

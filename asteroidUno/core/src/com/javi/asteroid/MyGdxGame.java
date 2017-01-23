@@ -29,7 +29,8 @@ public class MyGdxGame extends ApplicationAdapter {
 		nave = new Actor(new Posicion(0, 0), new Texture(Gdx.files.internal("nave.png")));
 		asteroide = new Asteroide(new Texture(Gdx.files.internal("asteroide.png")));
 		pantalla = new Rectangulo(new Posicion(0, 0), Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
-		fondo = GifDecoder.loadGIFAnimation(Animation.PlayMode.LOOP, Gdx.files.internal("asteroide.gif").readBytes());
+		fondo = GifDecoder.loadGIFAnimation(Animation.PlayMode.LOOP, Gdx.files.internal("estrellas.gif").read());
+
 		}
 
 	@Override
@@ -46,10 +47,13 @@ public class MyGdxGame extends ApplicationAdapter {
 				asteroide.cambiar();
 			}
 		
-		frameCounter = Gdx.graphics.getDeltaTime();
-		batch.draw((Texture) fondo.getKeyFrame(frameCounter, true),200, 200);
+		frameCounter+= Gdx.graphics.getDeltaTime();
+	
 		// dibujar
 		batch.begin();
+		batch.draw((TextureRegion)fondo.getKeyFrame(frameCounter,true),0,0,((TextureRegion)fondo.getKeyFrame(1f)).getRegionWidth()/2,((TextureRegion)fondo.getKeyFrame(1f)).getRegionHeight()/2,
+				Gdx.graphics.getWidth(),Gdx.graphics.getHeight()+200,1f,1f,-90f);
+		
 		nave.pintar(batch);
 		asteroide.pintar(batch);
 		batch.end();

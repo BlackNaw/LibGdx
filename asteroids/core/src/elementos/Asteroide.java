@@ -13,8 +13,9 @@ import interfaces.Actualizable;
 import interfaces.Cambiable;
 import interfaces.Moveable;
 import interfaces.Pintable;
+import interfaces.Reiniciable;
 
-public class Asteroide extends Elemento implements Cambiable, Pintable, Moveable, Actualizable {
+public class Asteroide extends Elemento implements Cambiable, Pintable, Moveable, Actualizable,Reiniciable {
 	int velocidad = 1;
 
 	public Asteroide(Texture imagen) {
@@ -60,5 +61,11 @@ public class Asteroide extends Elemento implements Cambiable, Pintable, Moveable
 			cambiar();
 		}
 		return false;
+	}
+
+	@Override
+	public void reiniciar() {
+		posicion.x = sorteo(Gdx.graphics.getWidth() - imagen.getWidth());
+		posicion.y = Gdx.graphics.getBackBufferHeight() + sorteo(Gdx.graphics.getBackBufferHeight());
 	}
 }

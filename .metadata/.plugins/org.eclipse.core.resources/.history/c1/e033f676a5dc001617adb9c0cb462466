@@ -1,7 +1,0 @@
-package com.game.snake;
-
-import Input;
-
-public class InputProcessor extends Input {
-
-}

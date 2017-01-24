@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
@@ -18,7 +19,7 @@ import comun.Rectangulo;
 import comun.Sondeo;
 import elementos.Actor;
 import elementos.Asteroide;
-import elementos.AtAt;
+import elementos.AtSt;
 
 import static comun.Constantes.*;
 
@@ -26,7 +27,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	SpriteBatch batch;
 	Actor nave;
 	ArrayList<Asteroide> asteroides = new ArrayList<>();
-	AtAt at;
+	AtSt at;
 	Rectangulo pantalla;
 	Animation<?> fondo, atAtD, atAtI;
 	Texture perdido;
@@ -41,9 +42,9 @@ public class MyGdxGame extends ApplicationAdapter {
 		for (int i = 0; i < Constantes.NUMERO_ASTEROIDES; i++) {
 			asteroides.add(new Asteroide(new Texture(Gdx.files.internal("asteroide.png"))));
 		}
-		at = new AtAt();
-//		atAtD = GifDecoder.loadGIF("at-at.gif");
-//		atAtI = GifDecoder.loadGIF("at-at-izq.gif");
+		at = new AtSt();
+		// atAtD = GifDecoder.loadGIF("at-at.gif");
+		// atAtI = GifDecoder.loadGIF("at-at-izq.gif");
 		pantalla = new Rectangulo(new Posicion(0, 0), Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		fondo = GifDecoder.loadGIF("estrellas.gif");
 		perdido = new Texture("gameover.png");
@@ -66,7 +67,7 @@ public class MyGdxGame extends ApplicationAdapter {
 			if (!nave.enLimitesPantalla(pantalla))
 				nave.direccionActual = nave.direccionActual.getContradireccion();
 			nave.mover();
-//			at.actualizar(nave.cuerpo);
+			// at.actualizar(nave.cuerpo);
 			at.mover();
 			for (Asteroide asteroide : asteroides) {
 				if (nave.comprobarColision(asteroide.cuerpo) || at.comprobarColision(nave.cuerpo)) {
@@ -79,14 +80,15 @@ public class MyGdxGame extends ApplicationAdapter {
 
 			// dibujar
 			batch.begin();
-//			batch.draw((TextureRegion)atAtI.getKeyFrame(frameCounter, true),0, 0);
+			// batch.draw((TextureRegion)atAtI.getKeyFrame(frameCounter,
+			// true),0, 0);
 			batch.draw((TextureRegion) fondo.getKeyFrame(frameCounter, true), 0, 0,
 					((TextureRegion) fondo.getKeyFrame(1f)).getRegionWidth() / 2,
 					((TextureRegion) fondo.getKeyFrame(1f)).getRegionHeight() / 2, Gdx.graphics.getWidth(),
 					Gdx.graphics.getHeight() + 200, 1f, 1f, -90f);
 
 			nave.pintar(batch);
-			at.pintar(batch,frameCounter);
+			at.pintar(batch, frameCounter);
 			for (Asteroide asteroide : asteroides) {
 				asteroide.pintar(batch);
 			}
@@ -100,6 +102,14 @@ public class MyGdxGame extends ApplicationAdapter {
 				gameOver = false;
 			}
 			batch.end();
+			if(Gdx.input.isKeyJustPressed(Keys.ENTER)){
+				nave.alive=true;
+				nave.reiniciar();
+				for (int i = 0; i < asteroides.size(); i++) {
+					asteroides.get(i).reiniciar();
+				}
+				at.reiniciar();
+			}
 		}
 
 	}

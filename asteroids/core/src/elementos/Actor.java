@@ -12,8 +12,9 @@ import interfaces.Actualizable;
 import interfaces.Colisionable;
 import interfaces.Moveable;
 import interfaces.Pintable;
+import interfaces.Reiniciable;
 
-public class Actor extends Elemento implements Moveable, Actualizable, Pintable, Colisionable {
+public class Actor extends Elemento implements Moveable, Actualizable, Pintable, Colisionable, Reiniciable {
 
 	public Direccion direccionActual = Direccion.este;
 	Avance avance;
@@ -22,8 +23,8 @@ public class Actor extends Elemento implements Moveable, Actualizable, Pintable,
 	public Actor(Posicion posicion, Texture imagen) {
 		super(posicion, imagen);
 		avance = new Avance(direccionActual);
-		Gdx.app.log("Ancho:", String.valueOf(imagen.getWidth()));
-		Gdx.app.log("Alto:", String.valueOf(imagen.getHeight()));
+//		Gdx.app.log("Ancho:", String.valueOf(imagen.getWidth()));
+//		Gdx.app.log("Alto:", String.valueOf(imagen.getHeight()));
 	}
 	
 	public boolean enLimitesPantalla(Rectangulo mayor){
@@ -52,6 +53,12 @@ public class Actor extends Elemento implements Moveable, Actualizable, Pintable,
 	@Override
 	public boolean comprobarColision(Rectangulo cuerpo) {
 		return this.cuerpo.solapa(cuerpo);
+	}
+
+	@Override
+	public void reiniciar() {
+		posicion.x=Gdx.graphics.getWidth()/3;
+		posicion.y=0;
 	}
 	
 }

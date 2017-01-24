@@ -41,7 +41,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		for (int i = 0; i < Constantes.NUMERO_ASTEROIDES; i++) {
 			asteroides.add(new Asteroide(new Texture(Gdx.files.internal("asteroide.png"))));
 		}
-		at = new AtAt(new Texture(Gdx.files.internal("asteroide.png")));
+		at = new AtAt();
 //		atAtD = GifDecoder.loadGIF("at-at.gif");
 //		atAtI = GifDecoder.loadGIF("at-at-izq.gif");
 		pantalla = new Rectangulo(new Posicion(0, 0), Gdx.graphics.getWidth(), Gdx.graphics.getHeight());

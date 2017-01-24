@@ -22,15 +22,15 @@ public class AtAt extends Elemento implements Cambiable, Pintable, Moveable, Act
 	float frameCounter;
 	Animation<Object> atAtAnimation;
 	TextureAtlas textureAtlas;
-	TextureRegion textureRegion;
 
 	private static final float FRAME_DURARTION = 0.3f;
 
-	public AtAt(Texture imagen) {
-		super(new Posicion(), imagen);
+	public AtAt() {
+		super(new Posicion(),new TextureRegion());
 		// atAtAnimation = GifDecoder.loadGIF("at-at-izq.gif");
 		textureAtlas = new TextureAtlas(Gdx.files.internal("atat.atlas"));
 		atAtAnimation = new Animation<Object>(FRAME_DURARTION, textureAtlas.findRegions("atat_derecha"));
+		textureRegion.setRegion(((AtlasRegion)atAtAnimation.getKeyFrame(0.1f)).getTexture());
 
 		// Si dejamos el codigo solo de arriba, la imagen nos coge el tamaño del
 		// png del atlas, si queremos que nos coja el tamaño de una de las
@@ -38,9 +38,10 @@ public class AtAt extends Elemento implements Cambiable, Pintable, Moveable, Act
 		// del atlas.png tendremos que hacer lo siguiente
 		// Converimos la imagen en una texture region y le cambiamos su alto y
 		// su ancho por los de el fotograma que hay en el 0.1 segundo
-		textureRegion = new TextureRegion(imagen);
-		textureRegion.setRegionWidth(((AtlasRegion) atAtAnimation.getKeyFrame(0.1f)).getRegionWidth());
-		textureRegion.setRegionHeight(((AtlasRegion) atAtAnimation.getKeyFrame(0.1f)).originalHeight);
+//		textureRegion.setRegionWidth(((AtlasRegion) atAtAnimation.getKeyFrame(0.1f)).getRegionWidth());
+//		textureRegion.setRegionHeight(((AtlasRegion) atAtAnimation.getKeyFrame(0.1f)).originalHeight);
+		cuerpo.ancho=textureRegion.getRegionWidth();
+		cuerpo.alto=textureRegion.getRegionHeight();
 		imagen = textureRegion.getTexture();
 		Gdx.app.log("Ancho", String.valueOf(imagen.getWidth()));
 		Gdx.app.log("Alto", String.valueOf(imagen.getHeight()));

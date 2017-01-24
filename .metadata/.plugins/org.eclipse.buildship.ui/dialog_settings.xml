@@ -5,7 +5,7 @@
 	</list>
 	<section name="org.eclipse.buildship.ui.wizard.project.import">
 		<item value="true" key="apply_working_sets"/>
-		<item value="C:\Trabajo\Libgdx\Proyectos\asteroidUno" key="project_location"/>
+		<item value="C:\Trabajo\Libgdx\Proyectos\asteroids" key="project_location"/>
 		<list key="working_sets">
 			<item value="Trabajos"/>
 		</list>

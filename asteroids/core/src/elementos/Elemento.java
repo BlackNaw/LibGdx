@@ -13,6 +13,8 @@ public class Elemento implements Disposable {
 	public Texture imagen;
 	public Rectangulo cuerpo;
 	public TextureRegion textureRegion;
+	
+	public Elemento(){}
 
 	public Elemento(Posicion posicion, Texture imagen) {
 		super();
@@ -21,17 +23,23 @@ public class Elemento implements Disposable {
 		cuerpo = new Rectangulo(this.posicion, imagen.getWidth(), imagen.getHeight());
 	}
 
+	
 	public Elemento(Posicion posicion, TextureRegion region) {
 		super();
 		this.posicion = posicion;
 		this.textureRegion = region;
 		cuerpo = new Rectangulo(this.posicion, 0, 0);
 	}
-
+	
 	@Override
 	public void dispose() {
-		if (imagen != null)
-			imagen.dispose();
+		if(imagen!=null){
+		imagen.dispose();
+		
+		}
 	}
+
+
+
 
 }

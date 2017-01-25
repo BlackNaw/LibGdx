@@ -1,5 +1,6 @@
 package interfaces;
 
+import comun.Posicion;
 import comun.Rectangulo;
 
 public interface Actualizable {

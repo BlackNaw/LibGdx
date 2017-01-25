@@ -12,7 +12,6 @@
 <fullyQualifiedTypeName name="com.mygdx.game.Moveable"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Actualizable"/>
 <fullyQualifiedTypeName name="com.mygdx.game.DireccionesE"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.Input.Keys"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Sondeo"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Actor"/>
 <fullyQualifiedTypeName name="java.nio.file.DirectoryStream"/>
@@ -20,7 +19,6 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.utils.viewport.ExtendViewport"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Avance"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Direccion"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.SpriteBatch"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Pintable"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Alimento"/>
@@ -30,9 +28,23 @@
 <fullyQualifiedTypeName name="com.mygdx.game.Rectangulo"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Posicion"/>
 <fullyQualifiedTypeName name="comun.Posicion"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureRegion"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasRegion"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
 <fullyQualifiedTypeName name="interfaces.Reiniciable"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Input.Keys"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.juangra.asteroids.PantallaCarga"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Screen"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Game"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.assets.AssetManager"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
+<fullyQualifiedTypeName name="javax.imageio.spi.IIOServiceProvider"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.ui.Label"/>
+<fullyQualifiedTypeName name="com.juangra.asteroids.MyGdxGame"/>
+<fullyQualifiedTypeName name="comun.GifDecoder"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.BitmapFont"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.ApplicationAdapter"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.SpriteBatch"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
+<fullyQualifiedTypeName name="comun.PantallaCarga"/>
 </qualifiedTypeNameHistroy>

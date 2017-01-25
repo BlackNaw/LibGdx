@@ -32,7 +32,7 @@ public class Rectangulo {
 		boolean porDerecha = derecha < rectangulo.derecha && derecha > rectangulo.izquierda;
 		boolean porArriba = arriba > rectangulo.abajo && arriba < rectangulo.arriba;
 		boolean porAbajo = abajo < rectangulo.arriba && abajo > rectangulo.abajo;
-		return ((porArriba || porAbajo) && (porIzquierda || porDerecha));
+		return (((porArriba || porAbajo) && (porIzquierda || porDerecha))||rectangulo.contiene(this));
 	}
 
 	public void calculaLados() {

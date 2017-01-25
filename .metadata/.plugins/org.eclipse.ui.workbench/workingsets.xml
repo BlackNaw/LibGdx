@@ -29,14 +29,14 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-android" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AsteroidUno-desktop" type="4"/>
-<item elementID="=asteroidsDos-android" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AsteroidUno-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroids" type="4"/>
-<item elementID="=asteroidsDos-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=asteroidsUno-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidUno" type="4"/>
-<item elementID="=asteroidsDos-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-desktop" type="4"/>
+<item elementID="=asteroidsUno-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=asteroidsUno-android" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidsUno-html" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484649454662_0" label="Window Working Set" name="Aggregate for window 1484649454662"/>

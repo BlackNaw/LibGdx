@@ -7,7 +7,6 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasRegion;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
-import static comun.Constantes.*;
 import comun.Posicion;
 import comun.Rectangulo;
 import interfaces.Actualizable;
@@ -21,7 +20,7 @@ public class AtSt extends Elemento implements Cambiable, Pintable, Moveable, Act
 
 	int velocidad = 1;
 	float frameCounter;
-	Animation atAtAnimation[] = new Animation[2];
+	Animation<?> atAtAnimation[] = new Animation[2];
 	TextureAtlas textureAtlas;
 	int i = 0;
 	boolean bandera = false;

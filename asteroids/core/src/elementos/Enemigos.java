@@ -26,7 +26,7 @@ public  abstract class Enemigos extends Elemento
 	public Disparo disparo;
 	int indice = 0;
 	protected boolean viva = true;
-	Animation explosion;
+	Animation<?> explosion;
 	TextureAtlas textureAtlas;
 	int posicionExploX, posicionExploY;
 	float aux;

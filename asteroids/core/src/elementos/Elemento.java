@@ -6,7 +6,6 @@ import com.badlogic.gdx.utils.Disposable;
 
 import comun.Posicion;
 import comun.Rectangulo;
-import interfaces.Reiniciable;
 
 public class Elemento implements Disposable {
 	public Posicion posicion;

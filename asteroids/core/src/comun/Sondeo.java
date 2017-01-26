@@ -1,10 +1,10 @@
 package comun;
 
+import static comun.Constantes.SONIDO_MOVIMIENTO;
+import static comun.Constantes.VOLUMEN;
+
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
-import static comun.Constantes.*;
-
-import java.awt.RenderingHints.Key;
 
 
 public class Sondeo {

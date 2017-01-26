@@ -18,7 +18,7 @@ public class GestorEnemigos implements Reiniciable {
 		// TODO Auto-generated constructor stub
 	}
 	public void generarEnemigos() {
-		ties=new LinkedList();
+		ties=new LinkedList<Enemigos>();
 		enemigos=new ArrayList<>();
 		destructores=new LinkedList<>();
 		for (int i = 0; i < Constantes.NUMERO_TIES; i++) {

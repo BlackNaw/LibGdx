@@ -1,6 +1,11 @@
 package com.juangra.asteroids;
 
-import static comun.Constantes.*;
+import static comun.Constantes.FACTOR_VELOCIDAD_DISPAROS_HALCON;
+import static comun.Constantes.SONIDO_DISPARO;
+import static comun.Constantes.SONIDO_EXPLOSION;
+import static comun.Constantes.SONIDO_GAMEOVER;
+import static comun.Constantes.SONIDO_MOVIMIENTO;
+import static comun.Constantes.VOLUMEN;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
@@ -9,7 +14,6 @@ import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
-import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
@@ -19,8 +23,8 @@ import comun.Puntuacion;
 import comun.Rectangulo;
 import comun.Sondeo;
 import elementos.Actor;
-import elementos.Enemigos;
 import elementos.AtSt;
+import elementos.Enemigos;
 import elementos.GestorEnemigos;
 
 public class MyGdxGame extends ApplicationAdapter {

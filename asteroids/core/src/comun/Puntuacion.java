@@ -2,22 +2,17 @@ package comun;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.utils.Disposable;
 
 import interfaces.Pintable;
-import interfaces.Reiniciable;
 
 public class Puntuacion implements Pintable,Disposable {
 	private BitmapFont font;
@@ -53,6 +48,7 @@ public class Puntuacion implements Pintable,Disposable {
 		font.dispose();
 	}
 	
+	@SuppressWarnings("resource")
 	private Integer leerArchivo() throws Exception {
 		file=new File("score.txt");
 		if(!file.exists()){
@@ -62,6 +58,7 @@ public class Puntuacion implements Pintable,Disposable {
 		return  (Integer) new ObjectInputStream(new FileInputStream(file)).readObject();
 	}
 	
+	@SuppressWarnings("resource")
 	public void guardarArchivo() throws  Exception{
 		
 		new ObjectOutputStream(new FileOutputStream(file)).writeObject(puntuaciones);

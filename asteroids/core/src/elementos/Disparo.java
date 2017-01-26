@@ -1,23 +1,18 @@
 package elementos;
 
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.audio.Sound;
-import com.badlogic.gdx.graphics.Texture;
-
 import static comun.Constantes.SONIDO_DISPARO;
 import static comun.Constantes.SONIDO_EXPLOSION;
 import static comun.Constantes.VELOCIDAD_DISPAROS_TIE;
 
-import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Sound;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.utils.Disposable;
 
 import comun.Posicion;
 import comun.Rectangulo;
 import interfaces.Actualizable;
-import interfaces.Cambiable;
 import interfaces.Colisionable;
-import interfaces.Disparable;
 import interfaces.Moveable;
 import interfaces.Pintable;
 import interfaces.Reiniciable;

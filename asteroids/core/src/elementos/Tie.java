@@ -9,8 +9,8 @@ import comun.Puntuacion;
 public class Tie extends Enemigos {
 	public int numeroVidas = Constantes.VIDA_TIE;
 
-	public Tie(Texture imagen) {
-		super(imagen);
+	public Tie(Texture imagen,String explosion) {
+		super(imagen,explosion);
 	}
 
 	@Override

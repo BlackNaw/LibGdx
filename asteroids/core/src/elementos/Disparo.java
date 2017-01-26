@@ -29,7 +29,7 @@ public class Disparo extends Elemento implements Actualizable, Moveable, Pintabl
 
 	public Disparo(Posicion posicion, Texture imagen,Sound sonido) {
 		super(posicion, imagen);
-		super.posicion.x -= imagen.getWidth() / 2;
+		super.posicion.x += imagen.getWidth() / 2;
 		this.sonido=sonido;
 	}
 
@@ -64,15 +64,15 @@ public class Disparo extends Elemento implements Actualizable, Moveable, Pintabl
 
 	public void actualizar(Posicion posicion) {
 		this.posicion.x += (this.posicion.x - posicion.x);
-		this.posicion.x = Math.abs(posicion.x+imagen.getWidth()+5);
+		this.posicion.x = Math.abs(posicion.x+this.imagen.getWidth()+5);
 		this.posicion.y += (this.posicion.y - posicion.y);
 		this.posicion.y=Math.abs(posicion.y);
 	}
 	public void actualizar(Posicion posicion, int sentido) {
 		this.posicion.x += (this.posicion.x - posicion.x);
-		this.posicion.x = Math.abs(posicion.x+imagen.getWidth()+2);
+		this.posicion.x = Math.abs(posicion.x+this.imagen.getWidth()+5);
 		this.posicion.y += (this.posicion.y - posicion.y);
-		this.posicion.y=Math.abs(posicion.y-imagen.getHeight()/2);
+		this.posicion.y=Math.abs(posicion.y-this.imagen.getHeight()/2);
 	}
 	@Override
 	public boolean comprobarColision(Rectangulo cuerpo) {

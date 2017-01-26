@@ -35,12 +35,13 @@ public class MyGdxGame extends ApplicationAdapter {
 	Music musicaFondo;
 	boolean gameOver;
 	Puntuacion puntuacion;
+	int aux=1000;
 
 	@Override
 	public void create() {
 		batch = new SpriteBatch();
 		nave = new Actor(new Posicion(Gdx.graphics.getWidth() / 3, 0), new Texture(Gdx.files.internal("halcon.png")));
-		enemigos.generarEnemigos(NUMERO_ASTEROIDES, "tie.png");
+		enemigos.generarEnemigos();
 		enemigos.anadirEnemigos(2);
 		at = new AtSt();
 		puntuacion=new Puntuacion("arcade.fnt");
@@ -57,9 +58,14 @@ public class MyGdxGame extends ApplicationAdapter {
 			//LOGICA
 			nave.direccionActual = (Sondeo.detectar(nave.direccionActual));
 			if(Puntuacion.puntuaciones!=0&&(Puntuacion.puntuaciones%500==0)&&(Puntuacion.nivel)){
+				if(Puntuacion.puntuaciones%aux==0){
+					aux+=aux;
+					enemigos.anadirDestructores(1);
+				}
 				enemigos.anadirEnemigos(2);
 				Puntuacion.nivel=false;
 			}
+			
 			if (!nave.enLimitesPantalla(pantalla))
 				nave.direccionActual = nave.direccionActual.getContradireccion();
 			nave.mover(1);
@@ -145,11 +151,13 @@ public class MyGdxGame extends ApplicationAdapter {
 		if(Gdx.input.isKeyPressed(Keys.ENTER)){
 			reiniciarJuego();
 		}
+		if (Gdx.input.isKeyJustPressed(Keys.ESCAPE))
+			Gdx.app.exit();
 		
 	}
 
 	private void reiniciarJuego() {
-		
+		aux=1000;
 		nave.alive=true;
 		enemigos.reiniciarTodo();
 		iniciarMusica();

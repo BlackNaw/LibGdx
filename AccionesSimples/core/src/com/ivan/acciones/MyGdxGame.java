@@ -15,10 +15,11 @@ public class MyGdxGame extends ApplicationAdapter {
 		stage = new Stage();
 		MyActor actor=new MyActor();
 		MyActorTres actorTres=new MyActorTres();
-		
+		MyActorCuatro actorCuatro=new MyActorCuatro();
 		//Añado el actor al escenario
 		stage.addActor(actor);
 		stage.addActor(actorTres);
+		stage.addActor(actorCuatro);
 	}
 
 	@Override

@@ -29,32 +29,35 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-android" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AsteroidUno-desktop" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-desktop" type="4"/>
+<item elementID="=Laberinto-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=asteroidsUno-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidsUno-android" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidsUno-html" type="4"/>
+<item elementID="=Laberinto-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AsteroidUno-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroids" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidsUno-desktop" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidUno" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-core" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-desktop" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidsUno-core" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidsUno-android" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidsUno-html" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Laberinto" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1485420302252_3" label="Escenario" name="Escenario">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EscenarioUno" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EscenarioUno-desktop" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AccionesSimples-core" type="4"/>
+<item elementID="=AccionesSimples-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AccionesSimples-desktop" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EscenarioUno-core" type="4"/>
+<item elementID="=EscenarioUno-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AccionesSimples" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1485504886807_4" label="Camaras" name="Camaras">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CamarasUno" type="4"/>
 <item elementID="=CamarasUno-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=CamarasUno-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CamarasUno" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484649454662_0" label="Window Working Set" name="Aggregate for window 1484649454662"/>
-<mruList name="Camaras"/>
-<mruList name="Escenario"/>
 <mruList name="Trabajos"/>
+<mruList name="Escenario"/>
+<mruList name="Camaras"/>
 <mruList name="Teoria"/>
 </workingSetManager>

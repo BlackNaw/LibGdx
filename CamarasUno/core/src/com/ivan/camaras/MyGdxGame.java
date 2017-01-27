@@ -7,17 +7,14 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 
-public class MyGdxGame extends ApplicationAdapter {
+public class MyGdxGame extends ApplicationAdapter  {
 	SpriteBatch batch;
-
-	// Es una imagen sin comportamiento
+	// es una imagen sin comportamiento
 	Texture img;
-
-	// Que es la imagen sobre la que podemos establer un comportamiento mas
-	// complejo
+	// Que es la imagen sobre la que podemos establecer un
+	// comportamiento mas complejo
 	Sprite sprite;
 	OrthographicCamera camera;
 	Stage stage;
@@ -25,32 +22,40 @@ public class MyGdxGame extends ApplicationAdapter {
 
 	@Override
 	public void create() {
-		batch = new SpriteBatch();
 		stage=new Stage();
-		img = new Texture("2048.jpg");
-		sprite = new Sprite(img);
-		sprite.setPosition(0f, 0f);
-		System.out.println("pantalla ancho: "+Gdx.graphics.getWidth()+" alto: "+Gdx.graphics.getHeight());
-//		camera=new OrthographicCamera(640,480);
-		camera=(OrthographicCamera) stage.getViewport().getCamera();
 		actor=new ActorTexture();
 		stage.addActor(actor);
+		batch = new SpriteBatch();
+		img = new Texture("2048.jpg");
+		sprite = new Sprite(img);
+		sprite.setPosition(0, 0);
+//		sprite.setOrigin(0, 0);
+		System.out.println("pantalla ancho:"+Gdx.graphics.getWidth()+" alto:"+Gdx.graphics.getHeight());
+		camera=new OrthographicCamera(640, 480);
+		//obtenemos la camara del escenario
+		camera=(OrthographicCamera) stage.getViewport().getCamera();
+		System.out.println("camar posicion x:"+camera.position.x+" y:"+camera.position.y);
+		Gdx.input.setInputProcessor(actor.miInput);
 	}
 
 	@Override
 	public void render() {
 		Gdx.gl.glClearColor(1, 0, 0, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+		//antes del begin
 //		sprite.setX(sprite.getX()-1);
-		camera.translate(new Vector2(1,0));
 		batch.setProjectionMatrix(camera.combined);
+		//Asocio el movimiento de la camara al del actor
+		camera.position.x=actor.getX();
+		camera.position.y=actor.getY();
+		//esto es solo para cuando trabajamos con una camara creada por nosotros
 //		camera.update();
 		batch.begin();
 		sprite.draw(batch);
 		batch.end();
+//		System.out.println("camar posicion x:"+camera.position.x+" y:"+camera.position.y);
 		stage.act();
 		stage.draw();
-		System.out.println("camera posicion x: "+camera.position.x+" y: "+camera.position.y);
 	}
 
 	@Override

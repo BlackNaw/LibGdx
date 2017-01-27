@@ -1,0 +1,12 @@
+1485520206754	Rename package 'Actores'
+1485520379457	Rename package 'comunç'
+1485520622602	Rename type 'IActualizable'
+1485520627861	Rename type 'ICambiable'
+1485520636583	Rename type 'IColisionable'
+1485520640845	Rename type 'IMovible'
+1485520646178	Rename type 'IPintable'
+1485520777754	Delete elements
+1485520793210	Rename type 'Moveable'
+1485520804496	Delete elements
+1485520931136	Rename method 'solapa'
+1485521669480	Rename type 'Pared'

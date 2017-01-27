@@ -1,0 +1,5 @@
+package elementos;
+
+public class Pared extends Elemento {
+
+}

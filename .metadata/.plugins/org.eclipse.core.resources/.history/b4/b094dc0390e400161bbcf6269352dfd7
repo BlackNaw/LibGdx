@@ -1,0 +1,14 @@
+package elementos;
+
+import com.badlogic.gdx.graphics.Texture;
+
+import comun.Posicion;
+
+public class Puerta extends Actor {
+
+	public Puerta(Posicion posicion, Texture imagen) {
+		super(posicion, imagen);
+		// TODO Auto-generated constructor stub
+	}
+	
+}

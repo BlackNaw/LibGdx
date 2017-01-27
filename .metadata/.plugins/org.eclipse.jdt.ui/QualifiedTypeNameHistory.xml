@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.InputAdapter"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Input"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.GL20"/>
@@ -41,14 +40,24 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.ui.Label"/>
 <fullyQualifiedTypeName name="com.juangra.asteroids.MyGdxGame"/>
 <fullyQualifiedTypeName name="comun.GifDecoder"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.BitmapFont"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.ApplicationAdapter"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.SpriteBatch"/>
 <fullyQualifiedTypeName name="comun.PantallaCarga"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Color"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Actor"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Stage"/>
 <fullyQualifiedTypeName name="com.ivan.escenario.MyActor"/>
+<fullyQualifiedTypeName name="java.awt.Frame"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.SequenceAction"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Files.FileType"/>
+<fullyQualifiedTypeName name="org.w3c.dom.ranges.RangeException"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.RepeatAction"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Actor"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.MoveToAction"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.ParallelAction"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Action"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.Actions"/>
+<fullyQualifiedTypeName name="com.ivan.acciones.MyActorTres"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.BitmapFont"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
 </qualifiedTypeNameHistroy>

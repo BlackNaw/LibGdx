@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;mover2&apos; in &apos;com.ivan.acciones.MyActor&apos; to &apos;moverDos&apos;&#x0D;&#x0A;- Original project: &apos;AccionesSimples-core&apos;&#x0D;&#x0A;- Original element: &apos;com.ivan.acciones.MyActor.mover2&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ivan.acciones.MyActor.moverDos&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;mover2&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;com.ivan.acciones{MyActor.java[MyActor^mover2" name="moverDos" references="true" setter="false" stamp="1485427281333" textual="false" version="1.0"/>
+</session>

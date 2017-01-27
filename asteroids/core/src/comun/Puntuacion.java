@@ -25,8 +25,8 @@ public class Puntuacion implements Pintable,Disposable {
 	
 	
 	public Puntuacion(String fon)
-	{	verde=new Texture("verde.png");
-		azul=new Texture("azul.png");
+	{	verde=new Texture(Gdx.files.internal("verde.png"));
+		azul=new Texture(Gdx.files.internal("azul.png"));
 		this.font=new BitmapFont(Gdx.files.internal(fon));
 		try {
 			highScore=leerArchivo();

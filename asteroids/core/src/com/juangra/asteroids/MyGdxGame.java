@@ -14,6 +14,7 @@ import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
@@ -40,10 +41,13 @@ public class MyGdxGame extends ApplicationAdapter {
 	boolean gameOver;
 	Puntuacion puntuacion;
 	int aux=1000;
+	private boolean pausa=false;
+	private BitmapFont letrasPantalla;
 
 	@Override
 	public void create() {
 		batch = new SpriteBatch();
+		letrasPantalla=new BitmapFont(Gdx.files.internal("arcade.fnt"));
 		nave = new Actor(new Posicion(Gdx.graphics.getWidth() / 3, 0), new Texture(Gdx.files.internal("halcon.png")));
 		enemigos.generarEnemigos();
 		enemigos.anadirEnemigos(2);
@@ -51,12 +55,13 @@ public class MyGdxGame extends ApplicationAdapter {
 		puntuacion=new Puntuacion("arcade.fnt");
 		pantalla = new Rectangulo(new Posicion(0, 0), Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		fondo = GifDecoder.loadGIF("estrellas.gif");
-		perdido = new Texture("gameover.png");
+		perdido = new Texture(Gdx.files.internal("gameover.png"));
 		iniciarMusica();
 	}
 
 	@Override
 	public void render() {
+		if (!pausa)
 		if (nave.alive) {
 			Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 			//LOGICA
@@ -111,9 +116,18 @@ public class MyGdxGame extends ApplicationAdapter {
 			at.pintar(batch,frameCounter);
 			enemigos.pintarTodo(batch,frameCounter);
 			batch.end();
+			if(Gdx.input.isKeyJustPressed(Keys.P)){
+				pausa=true;
+			}
 		} else {
 			//FIN JUEGO
 			finJuego();
+		}else{
+			batch.begin();
+			letrasPantalla.draw(batch, "Pausa", (Gdx.graphics.getWidth()/2)-50, Gdx.graphics.getHeight()/2);
+			batch.end();
+			if(Gdx.input.isKeyJustPressed(Keys.P))
+			pausa=false;
 		}
 		
 
@@ -133,7 +147,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		enemigos.disposeTodo();
 		perdido.dispose();
 		puntuacion.dispose();
-
+		letrasPantalla.dispose();
 	}
 	
 	

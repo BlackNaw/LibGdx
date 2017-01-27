@@ -34,7 +34,7 @@ public  abstract class Enemigos extends Elemento
 	public Enemigos(Texture imagen,String explosion) {
 		super(new Posicion(), imagen);
 		this.disparo = new Disparo(new Posicion(posicion.x + imagen.getWidth() / 2, posicion.y - imagen.getHeight()),
-				new Texture("disparoTie1.png"), Constantes.SONIDO_DISPARO);
+				new Texture(Gdx.files.internal("disparoTie1.png")), Constantes.SONIDO_DISPARO);
 		this.textureAtlas = new TextureAtlas(Gdx.files.internal(explosion+".atlas"));
 		this.explosion = new Animation<>(0.1f, textureAtlas.findRegions("explosion"));
 		cambiar();

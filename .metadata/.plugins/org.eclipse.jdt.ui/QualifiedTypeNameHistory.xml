@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.mygdx.game.Cambiable"/>
-<fullyQualifiedTypeName name="com.mygdx.game.Rectangulo"/>
-<fullyQualifiedTypeName name="com.mygdx.game.Posicion"/>
-<fullyQualifiedTypeName name="comun.Posicion"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureRegion"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasRegion"/>
-<fullyQualifiedTypeName name="interfaces.Reiniciable"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="com.juangra.asteroids.PantallaCarga"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.Screen"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.Game"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.assets.AssetManager"/>
-<fullyQualifiedTypeName name="javax.imageio.spi.IIOServiceProvider"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.ui.Label"/>
-<fullyQualifiedTypeName name="com.juangra.asteroids.MyGdxGame"/>
-<fullyQualifiedTypeName name="comun.GifDecoder"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.ApplicationAdapter"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.SpriteBatch"/>
 <fullyQualifiedTypeName name="comun.PantallaCarga"/>
 <fullyQualifiedTypeName name="com.ivan.escenario.MyActor"/>
@@ -42,13 +25,9 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Action"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.FloatAction"/>
 <fullyQualifiedTypeName name="com.ivan.acciones.BalanceAction"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Sprite"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Color"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.OrthographicCamera"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.math.Vector2"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier.CentripetalAcceleration"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Stage"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.InputProcessor"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.InputListener"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Input.Keys"/>
@@ -59,5 +38,26 @@
 <fullyQualifiedTypeName name="Interfaces.Colisionable"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.utils.Disposable"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Actor"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.ApplicationAdapter"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.Body"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Sprite"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Gdx2DPixmap"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.World"/>
+<fullyQualifiedTypeName name="javax.xml.bind.ValidationException"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.math.Vector2"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.BodyDef"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.BodyDef.BodyType"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.PolygonShape"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.FixtureDef"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.Fixture"/>
+<fullyQualifiedTypeName name="com.ivan.fisicas.FisicasUno"/>
+<fullyQualifiedTypeName name="com.ivan.fisicas.MyGdxGame"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.glutils.IndexData"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.InputProcessor"/>
+<fullyQualifiedTypeName name="com.ivan.fisicas.Fuerzas"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasSprite"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.math.Matrix4"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.Box2DDebugRenderer"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.OrthographicCamera"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
 </qualifiedTypeNameHistroy>

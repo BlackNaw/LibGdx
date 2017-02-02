@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ivan.fisicas.AplicandoFuerzas&apos; to &apos;Fuerzas&apos;&#x0D;&#x0A;- Original project: &apos;Fisiscas-core&apos;&#x0D;&#x0A;- Original element: &apos;com.ivan.fisicas.AplicandoFuerzas&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ivan.fisicas.Fuerzas&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AplicandoFuerzas&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ivan.fisicas{AplicandoFuerzas.java[AplicandoFuerzas" matchStrategy="1" name="Fuerzas" qualified="false" references="true" similarDeclarations="false" stamp="1486032720911" textual="false" version="1.0"/>
+</session>

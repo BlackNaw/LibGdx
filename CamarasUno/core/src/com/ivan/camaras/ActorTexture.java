@@ -9,8 +9,9 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 
 public class ActorTexture extends Actor  {
 	Texture image = new Texture(Gdx.files.internal("001.png"));
-	  float actorX = 0, actorY = 0;
-	  float avanceX=1, avanceY;
+	  float actorX = Gdx.graphics.getWidth()/2, actorY = Gdx.graphics.getHeight()/2;
+	  float avanceX=0, avanceY;
+	  
 	  InputAdapter miInput=new InputAdapter(){
 		  public boolean keyDown(int keycode) {
 			  switch (keycode) {
@@ -20,7 +21,7 @@ public class ActorTexture extends Actor  {
 				case Keys.DOWN:
 					avanceY=-1;break;
 				case Keys.LEFT:
-					avanceX=1;break;
+					avanceX=-1;break;
 				case Keys.RIGHT:
 					avanceX=2;break;
 				default:
@@ -30,7 +31,7 @@ public class ActorTexture extends Actor  {
 		  };
 		  @Override
 		public boolean keyUp(int keycode) {
-				avanceX = 1;
+				avanceX = 0;
 				avanceY = 0;
 				return true;
 		}

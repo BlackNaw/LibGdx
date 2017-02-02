@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="com.mygdx.game.Pintable"/>
-<fullyQualifiedTypeName name="com.mygdx.game.Alimento"/>
-<fullyQualifiedTypeName name="com.mygdx.game.Colision"/>
-<fullyQualifiedTypeName name="com.mygdx.game.Elemento"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Cambiable"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Rectangulo"/>
 <fullyQualifiedTypeName name="com.mygdx.game.Posicion"/>
@@ -55,9 +50,14 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Stage"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.InputProcessor"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Actor"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.InputListener"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Input.Keys"/>
 <fullyQualifiedTypeName name="com.ivan.camaras.ActorTexture"/>
+<fullyQualifiedTypeName name="Interfaces.Movible"/>
+<fullyQualifiedTypeName name="Interfaces.Actualizable"/>
+<fullyQualifiedTypeName name="Interfaces.Pintable"/>
+<fullyQualifiedTypeName name="Interfaces.Colisionable"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.utils.Disposable"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Actor"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
 </qualifiedTypeNameHistroy>

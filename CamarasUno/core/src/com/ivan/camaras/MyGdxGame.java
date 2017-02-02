@@ -36,11 +36,12 @@ public class MyGdxGame extends ApplicationAdapter  {
 		camera=(OrthographicCamera) stage.getViewport().getCamera();
 		System.out.println("camar posicion x:"+camera.position.x+" y:"+camera.position.y);
 		Gdx.input.setInputProcessor(actor.miInput);
+		System.out.println(Gdx.graphics.getWidth()+"x"+Gdx.graphics.getHeight());
 	}
 
 	@Override
 	public void render() {
-		Gdx.gl.glClearColor(1, 0, 0, 1);
+		Gdx.gl.glClearColor(0, 0, 0, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		//antes del begin
 //		sprite.setX(sprite.getX()-1);

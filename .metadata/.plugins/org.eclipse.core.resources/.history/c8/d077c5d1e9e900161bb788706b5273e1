@@ -1,0 +1,32 @@
+package ManyBalls;
+
+import java.util.Random;
+
+public enum Color {
+	amarilla, azul, morada, naranja, roja, verde;
+	public static Color getRandomColor() {
+		switch (new Random().nextInt(6)) {
+		case 0:
+
+			break;
+		case 0:
+
+			break;
+		case 0:
+
+			break;
+		case 0:
+
+			break;
+		case 0:
+
+			break;
+		case 0:
+
+			break;
+		default:
+			break;
+		}
+
+	}
+}

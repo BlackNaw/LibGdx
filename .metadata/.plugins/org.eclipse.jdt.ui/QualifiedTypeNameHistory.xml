@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.SpriteBatch"/>
-<fullyQualifiedTypeName name="comun.PantallaCarga"/>
-<fullyQualifiedTypeName name="com.ivan.escenario.MyActor"/>
-<fullyQualifiedTypeName name="java.awt.Frame"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.Files.FileType"/>
-<fullyQualifiedTypeName name="org.w3c.dom.ranges.RangeException"/>
-<fullyQualifiedTypeName name="com.ivan.acciones.MyActorTres"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.BitmapFont"/>
-<fullyQualifiedTypeName name="java.awt.event.MouseWheelEvent"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.RotateToAction"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.MoveToAction"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.ParallelAction"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.RepeatAction"/>
@@ -21,7 +11,6 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.utils.Pool"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Action"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.FloatAction"/>
 <fullyQualifiedTypeName name="com.ivan.acciones.BalanceAction"/>
@@ -30,7 +19,6 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Stage"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.InputListener"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.Input.Keys"/>
 <fullyQualifiedTypeName name="com.ivan.camaras.ActorTexture"/>
 <fullyQualifiedTypeName name="Interfaces.Movible"/>
 <fullyQualifiedTypeName name="Interfaces.Actualizable"/>
@@ -39,12 +27,9 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.utils.Disposable"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Actor"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.ApplicationAdapter"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.Body"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Sprite"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Gdx2DPixmap"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.World"/>
 <fullyQualifiedTypeName name="javax.xml.bind.ValidationException"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.math.Vector2"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.BodyDef"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.BodyDef.BodyType"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.PolygonShape"/>
@@ -59,5 +44,20 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.math.Matrix4"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.Box2DDebugRenderer"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.OrthographicCamera"/>
+<fullyQualifiedTypeName name="com.ivan.fisicas.Fuerza"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Input"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Input.Keys"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.math.Vector2"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.Body"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureAtlas"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureRegion"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Sprite"/>
+<fullyQualifiedTypeName name="ManyBalls.Utiles"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="ManyBalls.Ball"/>
+<fullyQualifiedTypeName name="ManyBalls.ManyBalls"/>
 </qualifiedTypeNameHistroy>

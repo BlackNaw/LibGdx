@@ -1,0 +1,5 @@
+package ManyBalls;
+
+public enum Color {
+amarilla,azul,morada,naranja,roja,verde
+}

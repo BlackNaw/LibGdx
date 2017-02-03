@@ -56,9 +56,9 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CamarasUno" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1486023524847_5" label="Fisicas" name="Fisicas">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fisicas" type="4"/>
 <item elementID="=Fisiscas-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Fisiscas-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fisicas" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484649454662_0" label="Window Working Set" name="Aggregate for window 1484649454662"/>
 <mruList name="Fisicas"/>

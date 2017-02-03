@@ -1,7 +1,0 @@
-package com.ivan.acciones;
-
-import Actor;
-
-public class MyActorBase extends Actor {
-
-}

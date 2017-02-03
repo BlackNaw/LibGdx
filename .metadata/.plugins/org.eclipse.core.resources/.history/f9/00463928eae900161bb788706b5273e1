@@ -1,0 +1,40 @@
+package ManyBalls;
+
+import java.util.Random;
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.physics.box2d.Body;
+
+public class Ball {
+	private static final int MORTAL_BOUND_Y = 1500;
+	Sprite sprite;
+	TextureRegion textura;
+	TextureAtlas texturaMapa;
+	Body body;
+	boolean aleatoria=true;
+	boolean dead=false;
+	
+	public Ball(Body body) {
+		texturaMapa = new TextureAtlas(Gdx.files.internal("bola.atlas"));
+	}
+	
+	public static String getRandomColor() {
+		switch (new Random().nextInt(6)) {
+		case 0:
+			return "amarilla";
+		case 1:
+			return "azul";
+		case 2:
+			return "morada";
+		case 3:
+			return "naranja";
+		case 4:
+			return "roja";
+		case 5:
+			return "verde";
+		}
+
+}

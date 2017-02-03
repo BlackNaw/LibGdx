@@ -1,8 +1,0 @@
-package com.ivan.camaras;
-
-import com.badlogic.gdx.InputProcessor;
-import com.badlogic.gdx.scenes.scene2d.Actor;
-
-public class ActorTexture extends Actor implements InputProcessor {
-
-}

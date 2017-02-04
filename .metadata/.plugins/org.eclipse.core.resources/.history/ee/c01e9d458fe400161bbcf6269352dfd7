@@ -1,8 +1,0 @@
-package elementos;
-
-public class Pared extends Elemento {
-	
-	public Pared() {
-		// TODO Auto-generated constructor stub
-	}
-}

@@ -1,9 +1,0 @@
-package elementos;
-
-import com.badlogic.gdx.graphics.Texture;
-
-import comun.Posicion;
-
-public class Pared extends Elemento {
-	
-}

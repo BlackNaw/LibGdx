@@ -1,7 +1,0 @@
-package com.ivan.fisicas;
-
-import com.badlogic.gdx.ApplicationAdapter;
-
-public class FisicasUno extends ApplicationAdapter {
-
-}

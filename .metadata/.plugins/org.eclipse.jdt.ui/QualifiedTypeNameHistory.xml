@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.Actions"/>
-<fullyQualifiedTypeName name="com.ivan.acciones.MyActorCuatro"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.utils.Pool"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -23,7 +21,6 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Gdx2DPixmap"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.World"/>
 <fullyQualifiedTypeName name="javax.xml.bind.ValidationException"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.BodyDef"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.PolygonShape"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.FixtureDef"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.Fixture"/>
@@ -45,7 +42,6 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureAtlas"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureRegion"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="ManyBalls.Utiles"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="ManyBalls.Ball"/>
 <fullyQualifiedTypeName name="ManyBalls.ManyBalls"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.BodyDef.BodyType"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="com.ivan.MyGdxGame"/>
+<fullyQualifiedTypeName name="ManyBalls.BodyEditorLoader"/>
+<fullyQualifiedTypeName name="ManyBalls.Ground"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.BodyDef"/>
+<fullyQualifiedTypeName name="ManyBalls.Utiles"/>
 </qualifiedTypeNameHistroy>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.badlogic.gdx.utils.Pool"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Action"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.actions.FloatAction"/>
-<fullyQualifiedTypeName name="com.ivan.acciones.BalanceAction"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Color"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier.CentripetalAcceleration"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Stage"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.InputListener"/>
 <fullyQualifiedTypeName name="com.ivan.camaras.ActorTexture"/>
@@ -37,7 +29,6 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Input"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Input.Keys"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.math.Vector2"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.Body"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureAtlas"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureRegion"/>
@@ -45,12 +36,10 @@
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="ManyBalls.Ball"/>
 <fullyQualifiedTypeName name="ManyBalls.ManyBalls"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Sprite"/>
 <fullyQualifiedTypeName name="com.ivan.Utiles"/>
 <fullyQualifiedTypeName name="javax.activation.MailcapCommandMap"/>
 <fullyQualifiedTypeName name="com.ivan.ManyBalls"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.ivan.Ground"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.BodyDef.BodyType"/>
@@ -59,5 +48,16 @@
 <fullyQualifiedTypeName name="ManyBalls.BodyEditorLoader"/>
 <fullyQualifiedTypeName name="ManyBalls.Ground"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.BodyDef"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.assets.loaders.SynchronousAssetLoader"/>
+<fullyQualifiedTypeName name="Collision.CollisionUno"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.ContactListener"/>
+<fullyQualifiedTypeName name="Collision.ContactAdapter"/>
+<fullyQualifiedTypeName name="javax.xml.soap.Text"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
+<fullyQualifiedTypeName name="javax.swing.text.Position"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.math.Vector2"/>
 <fullyQualifiedTypeName name="ManyBalls.Utiles"/>
+<fullyQualifiedTypeName name="Filtros.ManyWaterBalls"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Files.FileType"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
 </qualifiedTypeNameHistroy>

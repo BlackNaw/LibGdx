@@ -1,0 +1,28 @@
+package com.mygdx.game.desktop;
+
+import com.badlogic.ashley.core.Entity;
+import com.uwsoft.editor.renderer.components.TransformComponent;
+import com.uwsoft.editor.renderer.scripts.IScript;
+
+public class Base implements IScript {
+
+	Entity entity;
+	TransformComponent tc;
+	
+	@Override
+	public void init(Entity entity) {
+		this.entity=entity;
+		tc=entity.getComponent(TransformComponent.class);
+		
+	}
+
+	@Override
+	public void act(float delta) {
+
+	}
+
+	@Override
+	public void dispose() {
+
+	}
+}

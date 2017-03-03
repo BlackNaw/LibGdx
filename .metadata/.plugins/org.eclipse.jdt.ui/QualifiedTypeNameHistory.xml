@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Stage"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.InputListener"/>
-<fullyQualifiedTypeName name="com.ivan.camaras.ActorTexture"/>
-<fullyQualifiedTypeName name="Interfaces.Movible"/>
-<fullyQualifiedTypeName name="Interfaces.Actualizable"/>
-<fullyQualifiedTypeName name="Interfaces.Pintable"/>
-<fullyQualifiedTypeName name="Interfaces.Colisionable"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.utils.Disposable"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Actor"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.ApplicationAdapter"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Gdx2DPixmap"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.World"/>
 <fullyQualifiedTypeName name="javax.xml.bind.ValidationException"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.PolygonShape"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.FixtureDef"/>
@@ -22,9 +10,6 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.InputProcessor"/>
 <fullyQualifiedTypeName name="com.ivan.fisicas.Fuerzas"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasSprite"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.math.Matrix4"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.Box2DDebugRenderer"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.OrthographicCamera"/>
 <fullyQualifiedTypeName name="com.ivan.fisicas.Fuerza"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Input"/>
@@ -52,12 +37,27 @@
 <fullyQualifiedTypeName name="Collision.CollisionUno"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.ContactListener"/>
 <fullyQualifiedTypeName name="Collision.ContactAdapter"/>
-<fullyQualifiedTypeName name="javax.xml.soap.Text"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
 <fullyQualifiedTypeName name="javax.swing.text.Position"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.math.Vector2"/>
 <fullyQualifiedTypeName name="ManyBalls.Utiles"/>
 <fullyQualifiedTypeName name="Filtros.ManyWaterBalls"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Files.FileType"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.utils.viewport.Viewport"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.math.Matrix4"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.OrthographicCamera"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.utils.viewport.ScreenViewport"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.physics.box2d.Box2DDebugRenderer"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.GL20"/>
+<fullyQualifiedTypeName name="com.uwsoft.editor.renderer.SceneLoader"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
+<fullyQualifiedTypeName name="com.uwsoft.editor.renderer.utils.ItemWrapper"/>
+<fullyQualifiedTypeName name="com.uwsoft.editor.renderer.components.PolygonComponent"/>
+<fullyQualifiedTypeName name="com.uwsoft.editor.renderer.systems.PhysicsSystem"/>
+<fullyQualifiedTypeName name="com.uwsoft.editor.renderer.components.ScriptComponent"/>
+<fullyQualifiedTypeName name="com.badlogic.ashley.core.Entity"/>
+<fullyQualifiedTypeName name="javax.xml.soap.Text"/>
+<fullyQualifiedTypeName name="com.uwsoft.editor.renderer.components.TransformComponent"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.utils.compression.lzma.Base"/>
+<fullyQualifiedTypeName name="com.uwsoft.editor.renderer.components.physics.PhysicsBodyComponent"/>
 </qualifiedTypeNameHistroy>

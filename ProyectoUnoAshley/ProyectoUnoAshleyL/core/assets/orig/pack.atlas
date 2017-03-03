@@ -1,0 +1,20 @@
+
+pack.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bolabase
+  rotate: false
+  xy: 2, 22
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+horizontalbat
+  rotate: false
+  xy: 2, 2
+  size: 211, 18
+  orig: 211, 18
+  offset: 0, 0
+  index: -1

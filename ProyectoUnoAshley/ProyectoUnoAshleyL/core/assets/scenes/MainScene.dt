@@ -1,0 +1,1 @@
+{"sceneName":"MainScene","composite":{"sImages":[{"uniqueId":2,"tags":[],"x":196,"y":3,"originX":105.5,"originY":9,"layerName":"Default","imageName":"horizontalbat"},{"uniqueId":3,"tags":[],"x":115,"y":176,"originX":192,"originY":192,"zIndex":1,"layerName":"Default","imageName":"bolabase"}],"layers":[{"layerName":"Default","isVisible":true}]},"physicsPropertiesVO":{}}

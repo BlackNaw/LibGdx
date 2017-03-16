@@ -80,14 +80,18 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pinball" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1489679817287_8" label="Plantilla" name="Plantilla">
+<item elementID="=plantillaDesk-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=plantilla-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=plantilla-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Plantilla" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=plantillaDesk" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=plantillaDesk-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=plantillaDesk-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=plantilla-android" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1489679821501_9" label="plantillaDesk" name="plantillaDesk">
+<item elementID="=plantillaDesk-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=plantillaDesk" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=plantillaDesk-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=plantillaDesk-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484649454662_0" label="Window Working Set" name="Aggregate for window 1484649454662"/>
 <mruList name="Plantilla"/>

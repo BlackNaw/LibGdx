@@ -1,7 +1,0 @@
-package actores;
-
-import Actor;
-
-public class MyActor extends Actor {
-
-}

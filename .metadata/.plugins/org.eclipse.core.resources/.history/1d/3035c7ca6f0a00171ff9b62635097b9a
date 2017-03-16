@@ -1,0 +1,37 @@
+package input;
+
+import com.badlogic.gdx.Input;
+import com.badlogic.gdx.InputAdapter;
+
+public class InputDesktop extends InputAdapter {
+
+	private boolean ctrl=false;
+	public InputDesktop() {
+	}
+	
+	@Override
+	public boolean keyDown(int keycode) {
+		comprobarCombinacion(keycode);
+		return true;
+	}
+	
+	@Override
+	public boolean keyUp(int keycode) {
+		return true;
+	}
+	
+	@Override
+	public boolean touchDown(int screenX, int screenY, int pointer, int button) {
+		return true;
+	}
+	public void comprobarCombinacion(int keycode) {
+		if(ctrl){
+			if(keycode==Input.Keys.R){
+				//TODO activar debug
+			}
+		}
+		if(keycode==Input.Keys.CONTROL_LEFT)
+			ctrl=true;
+	}
+	
+}

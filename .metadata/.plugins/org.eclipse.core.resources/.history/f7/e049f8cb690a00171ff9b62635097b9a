@@ -1,0 +1,7 @@
+package control;
+
+import comun.ContactAdapter;
+
+public class Contacto extends ContactAdapter {
+
+}

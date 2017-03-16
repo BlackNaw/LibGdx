@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\Trabajo\\Libgdx\\Compartido\\pinball\\.git;C\:\\Users\\Yo\\git\\pinball\\.git;C\:\\Trabajo\\Libgdx\\Proyectos\\.git;C\:\\Trabajo\\Libgdx\\pinball\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\Trabajo\\Libgdx\\Compartido\\pinball\\.git;C\:\\Users\\Yo\\git\\pinball\\.git;.git;C\:\\Trabajo\\Libgdx\\pinball\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Trabajo\\Libgdx\\Compartido\\pinball\\.git;C\:\\Users\\Yo\\git\\pinball\\.git;C\:\\Trabajo\\Libgdx\\Proyectos\\.git;C\:\\Trabajo\\Libgdx\\Proyectos\\pinball\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Trabajo\\Libgdx\\Compartido\\pinball\\.git;C\:\\Users\\Yo\\git\\pinball\\.git;.git;pinball\\.git;
 RepositorySearchDialogDeepSearch=false
-RepositorySearchDialogSearchPath=C\:\\Trabajo\\Libgdx
+RepositorySearchDialogSearchPath=C\:\\Trabajo\\Libgdx\\Proyectos\\pinball
 eclipse.preferences.version=1

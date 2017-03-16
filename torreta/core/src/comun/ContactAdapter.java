@@ -1,0 +1,32 @@
+package comun;
+
+import com.badlogic.gdx.physics.box2d.Contact;
+import com.badlogic.gdx.physics.box2d.ContactImpulse;
+import com.badlogic.gdx.physics.box2d.ContactListener;
+import com.badlogic.gdx.physics.box2d.Manifold;
+
+/**
+ * Created by JAVI on 10/03/2017.
+ */
+
+public class ContactAdapter implements ContactListener {
+    @Override
+    public void beginContact(Contact contact) {
+
+    }
+
+    @Override
+    public void endContact(Contact contact) {
+
+    }
+
+    @Override
+    public void preSolve(Contact contact, Manifold oldManifold) {
+
+    }
+
+    @Override
+    public void postSolve(Contact contact, ContactImpulse impulse) {
+
+    }
+}

@@ -1,0 +1,10 @@
+package comun;
+
+import com.badlogic.gdx.graphics.OrthographicCamera;
+
+public class MyCamera extends OrthographicCamera {
+
+	public MyCamera() {
+	}
+
+}

@@ -1,0 +1,56 @@
+package input;
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
+import com.badlogic.gdx.InputAdapter;
+
+
+public class InputMovil extends InputAdapter {
+
+	boolean availableSensor;
+	
+	public InputMovil() {
+		availableSensor=Gdx.input.isPeripheralAvailable(Input.Peripheral.Accelerometer);
+	}
+	
+	@Override
+	public boolean touchDown(int screenX, int screenY, int pointer, int button) {
+		return super.touchDown(screenX, screenY, pointer, button);
+	}
+	
+	@Override
+	public boolean touchUp(int screenX, int screenY, int pointer, int button) {
+		return super.touchUp(screenX, screenY, pointer, button);
+	}
+	
+	public void act(){
+		
+	}
+	
+    //Gyroscope
+//
+//Gdx.input.getGyroscopeX()
+//        Gdx.input.getGyroscopeY()
+//        Gdx.input.getGyroscopeZ()
+
+    ////Accelerometer and Rotation
+
+//Gdx.input.getAccelerometerX()
+//        Gdx.input.getAccelerometerY()
+//        Gdx.input.getAccelerometerZ()
+//
+//        Gdx.input.getRotation()
+//        Gdx.input.getRotationMatrix(float[] matrix)
+
+    //Compass
+
+//Gdx.input.getAzimuth()
+//        Gdx.input.getPitch()
+//        Gdx.input.getRoll()
+
+    //Vibrator
+//
+//Gdx.input.cancelVibrate()
+//        Gdx.input.vibrate(int milliseconds)
+//            Gdx.input.vibrate(long[] pattern, int repeat)
+}

@@ -1,0 +1,14 @@
+package control;
+
+import com.badlogic.gdx.physics.box2d.World;
+
+public class GestorActores {
+
+	
+	public GestorActores(World world,Stage stage) {
+		
+	}
+	
+	public void anadirActoresStage(Stage stage) {
+    }
+}

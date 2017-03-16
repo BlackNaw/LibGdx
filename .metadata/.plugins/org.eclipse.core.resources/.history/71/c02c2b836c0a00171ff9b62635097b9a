@@ -1,0 +1,26 @@
+package input;
+
+import com.badlogic.gdx.InputAdapter;
+
+public class InputDesktop extends InputAdapter {
+
+	public InputDesktop() {
+	}
+	
+	@Override
+	public boolean keyDown(int keycode) {
+		return super.keyDown(keycode);
+	}
+	
+	@Override
+	public boolean keyUp(int keycode) {
+		return super.keyUp(keycode);
+	}
+	
+	@Override
+	public boolean touchDown(int screenX, int screenY, int pointer, int button) {
+		// TODO Auto-generated method stub
+		return super.touchDown(screenX, screenY, pointer, button);
+	}
+	
+}

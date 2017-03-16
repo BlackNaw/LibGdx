@@ -1,0 +1,30 @@
+package control;
+
+import com.badlogic.gdx.InputAdapter;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.physics.box2d.World;
+import com.badlogic.gdx.scenes.scene2d.Stage;
+
+public class Game {
+	
+	Stage stage;
+	SpriteBatch batch;
+	World world;
+	InputAdapter input;
+	
+	
+	public Game(World world) {
+		batch = new SpriteBatch();
+	}
+	
+	public void act(){
+		
+	}
+	public void render(){
+		
+	}
+	
+	public void dispose(){
+		
+	}
+}

@@ -1,0 +1,21 @@
+package comun;
+
+import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+
+public class MyCamera extends OrthographicCamera {
+
+	//Si queremos que siga a un actor se le pasa por parametros
+	public MyCamera() {
+	}
+	
+	@Override
+	public void update() {
+		super.update();
+	}
+	
+	public void draw(SpriteBatch batch){
+		batch.setProjectionMatrix(this.combined);
+	}
+
+}

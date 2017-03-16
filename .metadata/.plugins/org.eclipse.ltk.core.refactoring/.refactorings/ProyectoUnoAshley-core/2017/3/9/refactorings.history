@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;PongAshleyL-core/src/com.mygdx.game&apos;&#x0D;&#x0A;- Original project: &apos;ProyectoUnoAshley-core&apos;&#x0D;&#x0A;- Destination element: &apos;PongAshleyL-core/src/com.mygdx.game&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.mygdx.game.Base.java&#x0D;&#x0A;     com.mygdx.game.MyGdxGame.java" description="Copy compilation units" destination="=PongAshleyL-core/src&lt;com.mygdx.game" element1="/src&lt;com.mygdx.game{Base.java" element2="/src&lt;com.mygdx.game{MyGdxGame.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1488540119436" units="2" version="1.0"/>
+</session>

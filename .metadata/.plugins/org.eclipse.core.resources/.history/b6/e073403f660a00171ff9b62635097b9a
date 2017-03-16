@@ -1,0 +1,8 @@
+package comun;
+
+import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
+
+
+public class MyDebug extends Box2DDebugRenderer {
+
+}

@@ -1,0 +1,63 @@
+package control;
+
+import com.badlogic.gdx.InputAdapter;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.physics.box2d.World;
+import com.badlogic.gdx.scenes.scene2d.Stage;
+
+import comun.MyCamera;
+import comun.MyDebug;
+
+public class Game {
+	
+	Stage stage;
+	SpriteBatch batch;
+	World world;
+	InputAdapter input;
+	MyCamera myCamera;
+	MyDebug myDebug;
+	GestorActores gestor;
+	Contacto contacto;
+	
+	public Game(World world) {
+		this.world=world;
+		batch = new SpriteBatch();
+		myDebug=new MyDebug();
+		
+		//Aqui el actor en caso de querer que la camara siga al actor
+		myCamera=new MyCamera();
+		stage = new Stage(myCamera.viewport, batch);
+		gestor=new GestorActores(world,stage);
+		contacto = new Contacto();
+		this.world.setContactListener(contacto);
+		
+	}
+	
+	/**
+	 * Se encarga de actuar
+	 */
+	public void act(){
+		stage.act();
+	}
+	
+	/**
+	 * Para actualizar y dibujar
+	 * Primero actualizar siempre y luego dibujar
+	 */
+	public void render(){
+		myCamera.update();
+		myCamera.draw(batch);
+		stage.draw();
+		myDebug.draw(world, batch);
+		
+	}
+	
+	/**
+	 * Elimina los elementos de memoria
+	 */
+	public void dispose(){
+		batch.dispose();
+		stage.dispose();
+		myDebug.dispose();
+	}
+}

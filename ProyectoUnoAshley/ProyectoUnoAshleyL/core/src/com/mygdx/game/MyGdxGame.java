@@ -16,7 +16,6 @@ import com.uwsoft.editor.renderer.components.PolygonComponent;
 import com.uwsoft.editor.renderer.components.ScriptComponent;
 import com.uwsoft.editor.renderer.components.TransformComponent;
 import com.uwsoft.editor.renderer.components.physics.PhysicsBodyComponent;
-import com.uwsoft.editor.renderer.scripts.IScript;
 import com.uwsoft.editor.renderer.systems.PhysicsSystem;
 import com.uwsoft.editor.renderer.utils.ItemWrapper;
 

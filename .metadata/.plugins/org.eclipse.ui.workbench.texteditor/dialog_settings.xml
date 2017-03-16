@@ -8,16 +8,17 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="gradle"/>
+			<item value="true"/>
 			<item value="den"/>
 			<item value="densi"/>
 			<item value="dens"/>
 			<item value="full"/>
 			<item value="icon"/>
 			<item value="jpg"/>
-			<item value="png"/>
-			<item value="render"/>
 		</list>
 		<list key="replacehistory">
+			<item value="false"/>
 			<item value="Constantes.SALTO"/>
 			<item value="SALTO"/>
 		</list>

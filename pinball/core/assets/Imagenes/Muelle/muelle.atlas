@@ -1,0 +1,75 @@
+
+muelle.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+muelle_pulsando
+  rotate: false
+  xy: 1, 25
+  size: 24, 38
+  orig: 24, 38
+  offset: 0, 0
+  index: 1
+muelle_soltando
+  rotate: false
+  xy: 1, 25
+  size: 24, 38
+  orig: 24, 38
+  offset: 0, 0
+  index: 5
+muelle_pulsando
+  rotate: false
+  xy: 27, 28
+  size: 24, 35
+  orig: 24, 35
+  offset: 0, 0
+  index: 2
+muelle_soltando
+  rotate: false
+  xy: 27, 28
+  size: 24, 35
+  orig: 24, 35
+  offset: 0, 0
+  index: 4
+muelle_pulsando
+  rotate: false
+  xy: 53, 30
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: 3
+muelle_soltando
+  rotate: false
+  xy: 53, 30
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: 3
+muelle_pulsando
+  rotate: false
+  xy: 79, 36
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: 4
+muelle_soltando
+  rotate: false
+  xy: 79, 36
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: 2
+muelle_pulsando
+  rotate: false
+  xy: 27, 1
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: 5
+muelle_soltando
+  rotate: false
+  xy: 27, 1
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: 1

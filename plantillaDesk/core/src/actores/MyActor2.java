@@ -2,9 +2,11 @@ package actores;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.BodyDef;
 import com.badlogic.gdx.physics.box2d.BodyDef.BodyType;
@@ -13,9 +15,12 @@ import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 
 import comun.BodyEditorLoader;
+import control.MaquinaEstados;
 import global.Constantes;
+import interfaz.IChocable;
+import interfaz.IReiniciable;
 
-public class MyActor2 extends Actor {
+public class MyActor2 extends Actor implements IChocable, IReiniciable {
 	Body body;
 	Sprite sprite;
 	Texture texture;
@@ -38,7 +43,7 @@ public class MyActor2 extends Actor {
 		String cadena = file.readString();
 		BodyEditorLoader loader = new BodyEditorLoader(cadena);
 		bodyDef.position.set(posX / Constantes.PIXELS_TO_METERS, posY / Constantes.PIXELS_TO_METERS);
-		fixtureDef.density = 1;
+		fixtureDef.density = 1f;
 		fixtureDef.friction = 3f;
 		fixtureDef.restitution = 0.0f;
 		// Para hacer filtros
@@ -74,6 +79,17 @@ public class MyActor2 extends Actor {
 		// Pinta el sprite
 		sprite.draw(batch);
 
+	}
+
+	@Override
+	public void chocar() {
+		body.applyLinearImpulse(new Vector2(.2f, 0), body.getWorldCenter(), true);
+		MaquinaEstados.juegoTerminado.setEstado(true);
+	}
+
+	@Override
+	public void reiniciar() {
+		sprite.setColor(Color.RED);
 	}
 
 }

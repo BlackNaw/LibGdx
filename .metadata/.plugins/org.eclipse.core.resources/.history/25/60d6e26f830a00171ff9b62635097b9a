@@ -1,0 +1,13 @@
+package control;
+
+public class Logica {
+	
+	public Logica() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void act(){
+		if(MaquinaEstados.juegoTerminado)
+	}
+
+}

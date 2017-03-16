@@ -3,7 +3,10 @@ package control;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.Contact;
 
+import actores.MyActor;
+import actores.MyActor2;
 import comun.ContactAdapter;
+import interfaz.IChocable;
 
 public class Contacto extends ContactAdapter {
 
@@ -13,26 +16,17 @@ public class Contacto extends ContactAdapter {
 	public void beginContact(Contact contact) {
 		bodyA = contact.getFixtureA().getBody();
 		bodyB = contact.getFixtureB().getBody();
-		
-//		if (bodyB.getUserData() instanceof Torreta && bodyA.getUserData() instanceof Enemigo) {
-//            ((IChocable) bodyA.getUserData()).chocar();
-//            ((IChocable) bodyB.getUserData()).chocar();
-//        } else if (bodyA.getUserData() instanceof Torreta && bodyB.getUserData() instanceof Enemigo) {
-//            ((IChocable) bodyA.getUserData()).chocar();
-//            ((IChocable) bodyB.getUserData()).chocar();
-//        }
-//        if (bodyB.getUserData() instanceof Disparo && bodyA.getUserData() instanceof Enemigo) {
-//            ((IChocable) bodyA.getUserData()).chocar();
-//            ((IChocable) bodyB.getUserData()).chocar();
-//        } else if (bodyA.getUserData() instanceof Disparo && bodyB.getUserData() instanceof Enemigo) {
-//            ((IChocable) bodyA.getUserData()).chocar();
-//            ((IChocable) bodyB.getUserData()).chocar();
-//        }
+
+		if(bodyA.getUserData() instanceof MyActor&&bodyB.getUserData() instanceof MyActor2){
+			   ((IChocable)bodyB.getUserData()).chocar();
+			  }else if(bodyB.getUserData() instanceof MyActor&&bodyA.getUserData() instanceof MyActor2){
+			   ((IChocable)bodyA.getUserData()).chocar();
+			  }
 	}
 
 	@Override
 	public void endContact(Contact contact) {
-//		bodyA = contact.getFixtureA().getBody();
-//		bodyB = contact.getFixtureB().getBody();
+		// bodyA = contact.getFixtureA().getBody();
+		// bodyB = contact.getFixtureB().getBody();
 	}
 }

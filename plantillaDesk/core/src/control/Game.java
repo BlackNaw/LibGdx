@@ -23,6 +23,7 @@ public class Game {
 	MyDebug myDebug;
 	GestorActores gestor;
 	Contacto contacto;
+	Logica logica;
 
 	public Game(World world) {
 		this.world = world;
@@ -38,7 +39,7 @@ public class Game {
 		if (Constantes.ANDROID) {
 			input = new InputMovil();
 		} else {
-			input = new InputDesktop();
+			input = new InputDesktop(gestor.getActorUno());
 			((InputDesktop)input).addObserver(myDebug);
 		}
 		/////////////////////////////
@@ -46,6 +47,7 @@ public class Game {
 		contacto = new Contacto();
 		this.world.setContactListener(contacto);
 		new MakingACage(world, 0, Gdx.graphics.getWidth()/Constantes.PIXELS_TO_METERS, Gdx.graphics.getHeight()/Constantes.PIXELS_TO_METERS, 1);
+		logica=new Logica(stage);
 	}
 
 	/**
@@ -53,7 +55,7 @@ public class Game {
 	 */
 	public void act() {
 		stage.act();
-		
+		logica.act();
 		if (Constantes.ANDROID)
 			((InputMovil)input).act();
 	}

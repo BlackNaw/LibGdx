@@ -17,7 +17,7 @@ public class GestorActores {
 	 */
 	public GestorActores(World world,Stage stage) {
 		myActor = new MyActor(world,20f,20f);
-		myActor2 = new MyActor2(world,40f,40f);
+		myActor2 = new MyActor2(world,60f,60f);
 		this.anadirActoresStage(stage);
 	}
 
@@ -29,4 +29,8 @@ public class GestorActores {
 		stage.addActor(myActor);
 		stage.addActor(myActor2);
     }
+	
+	public MyActor getActorUno(){
+		return (MyActor) myActor;
+	}
 }

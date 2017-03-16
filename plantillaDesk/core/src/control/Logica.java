@@ -1,0 +1,27 @@
+package control;
+
+import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.Stage;
+
+import interfaz.IReiniciable;
+
+public class Logica {
+	
+	Stage stage;
+	
+	public Logica() {
+	}
+	
+	public Logica(Stage stage) {
+		this.stage=stage;
+	}
+	
+	public void act(){
+		if(MaquinaEstados.juegoTerminado.getEstado()){
+			for (Actor actor : stage.getActors()) {
+				((IReiniciable)actor).reiniciar();
+			}
+		}
+	}
+
+}

@@ -1,6 +1,7 @@
 package actores;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
@@ -14,8 +15,9 @@ import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 
 import global.Constantes;
+import interfaz.IReiniciable;
 
-public class MyActor extends Actor {
+public class MyActor extends Actor implements IReiniciable {
 
 	Body body;
 	Shape shape;
@@ -44,7 +46,7 @@ public class MyActor extends Actor {
 		body.createFixture(fixtureDef);
 //		body.setBullet(true);
 		//True rota false no rota
-//		body.setFixedRotation(true);
+		body.setFixedRotation(true);
 		//Importante para el contact
 		body.setUserData(this);
 		// Para cambiar la textura usar
@@ -63,5 +65,27 @@ public class MyActor extends Actor {
 	@Override
 	public void draw(Batch batch, float parentAlpha) {
 		sprite.draw(batch);
+	}
+	
+	public void moverIzquierda(){
+		body.setLinearVelocity(-Constantes.VELOCIDAD_JUGADOR,0);
+	}
+	public void moverDerecha(){
+		body.setLinearVelocity(Constantes.VELOCIDAD_JUGADOR,0);
+	}
+	public void moverArriba(){
+		body.setLinearVelocity(0,Constantes.VELOCIDAD_JUGADOR);
+	}
+	public void moverAbajo(){
+		body.setLinearVelocity(0,-Constantes.VELOCIDAD_JUGADOR);
+	}
+	
+	public void parar(){
+		body.setLinearVelocity(0,0);
+	}
+
+	@Override
+	public void reiniciar() {
+		sprite.setColor(Color.BLUE);		
 	}
 }

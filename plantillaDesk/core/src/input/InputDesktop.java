@@ -3,9 +3,11 @@ package input;
 import java.util.ArrayList;
 
 import com.badlogic.gdx.Input;
+import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 
+import actores.MyActor;
 import interfaz.IObservable;
 import interfaz.IObservador;
 
@@ -30,11 +32,22 @@ public class InputDesktop extends InputAdapter implements IObservable {
 	@Override
 	public boolean keyDown(int keycode) {
 		comprobarCombinacion(keycode);
+		if (keycode == Keys.UP)
+			((MyActor) actor).moverArriba();
+		if (keycode == Keys.DOWN)
+			((MyActor) actor).moverAbajo();
+		if (keycode == Keys.LEFT)
+			((MyActor) actor).moverIzquierda();
+		if (keycode == Keys.RIGHT)
+			((MyActor) actor).moverDerecha();
+
 		return true;
 	}
 
 	@Override
 	public boolean keyUp(int keycode) {
+		if (keycode == Keys.UP||keycode == Keys.DOWN||keycode == Keys.LEFT||keycode == Keys.RIGHT)
+			((MyActor) actor).parar();
 		return true;
 	}
 

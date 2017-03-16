@@ -6,9 +6,10 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 
-import comun.Constantes;
 import comun.MyCamera;
 import comun.MyDebug;
+import global.Constantes;
+import global.MakingACage;
 import input.InputDesktop;
 import input.InputMovil;
 
@@ -44,6 +45,7 @@ public class Game {
 		Gdx.input.setInputProcessor(input);
 		contacto = new Contacto();
 		this.world.setContactListener(contacto);
+		new MakingACage(world, 0, Gdx.graphics.getWidth()/Constantes.PIXELS_TO_METERS, Gdx.graphics.getHeight()/Constantes.PIXELS_TO_METERS, 1);
 	}
 
 	/**
@@ -64,7 +66,6 @@ public class Game {
 		myCamera.draw(batch);
 		stage.draw();
 		myDebug.draw(world, batch);
-
 	}
 
 	/**

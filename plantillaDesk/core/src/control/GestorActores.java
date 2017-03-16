@@ -5,16 +5,19 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 
 import actores.MyActor;
+import actores.MyActor2;
 
 public class GestorActores {
 
 	Actor myActor;
+	Actor myActor2;
 	/**
 	 * Crea los actores
 	 * @param world
 	 */
 	public GestorActores(World world,Stage stage) {
-		myActor = new MyActor(world,1f,1f);
+		myActor = new MyActor(world,20f,20f);
+		myActor2 = new MyActor2(world,40f,40f);
 		this.anadirActoresStage(stage);
 	}
 
@@ -24,5 +27,6 @@ public class GestorActores {
 	 */
 	private void anadirActoresStage(Stage stage) {
 		stage.addActor(myActor);
+		stage.addActor(myActor2);
     }
 }

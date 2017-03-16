@@ -1,0 +1,74 @@
+package actores;
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.files.FileHandle;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.physics.box2d.Body;
+import com.badlogic.gdx.physics.box2d.BodyDef;
+import com.badlogic.gdx.physics.box2d.BodyDef.BodyType;
+import com.badlogic.gdx.physics.box2d.FixtureDef;
+import com.badlogic.gdx.physics.box2d.PolygonShape;
+import com.badlogic.gdx.physics.box2d.Shape;
+import com.badlogic.gdx.physics.box2d.World;
+import com.badlogic.gdx.scenes.scene2d.Actor;
+
+import comun.BodyEditorLoader;
+import comun.Constantes;
+
+public class MyActor2 extends Actor {
+
+	Body body;
+	Sprite sprite;
+	Texture texture;
+	BodyDef bodyDef = new BodyDef();
+	FixtureDef fixtureDef = new FixtureDef();
+
+	public MyActor2(World world, float posX, float posY) {
+		texture = new Texture(Gdx.files.internal("014.png"));
+		sprite = new Sprite(texture);
+		sprite.setPosition(posX, posY);
+		sprite.setSize(40, 40);
+		bodyDef.type = BodyType.DynamicBody;
+		bodyDef.position.set(posX, posY);
+		bodyDef.position.set((sprite.getX() + sprite.getWidth() / 2) / Constantes.PIXELS_TO_METERS,
+				(sprite.getY() + sprite.getHeight() / 2) / Constantes.PIXELS_TO_METERS);
+
+		FileHandle file = Gdx.files.internal("avion.json");
+		String cadena = file.readString();
+		BodyEditorLoader loader = new BodyEditorLoader(cadena);
+
+		// Lo comentado para hacer filtros
+		// fixtureDef.filter.maskBits=
+		// fixtureDef.filter.categoryBits=
+		fixtureDef.density = 1f;
+		fixtureDef.friction = 3f;
+		fixtureDef.restitution = 0.0f;
+
+		body = world.createBody(bodyDef);
+		
+		/////// CONFIGURACIONES DEL BODY//////
+		body.setFixedRotation(false);
+		body.setBullet(false);
+		/////////////////////////////////////
+		body.setUserData(this);
+		loader.attachFixture(body, "avion", fixtureDef, sprite.getWidth() / Constantes.PIXELS_TO_METERS);
+		// Para cambiar la textura usar
+		// sprite.setTexture(texture);
+	}
+
+	@Override
+	public void act(float delta) {
+		super.act(delta);
+		sprite.setPosition((body.getPosition().x * Constantes.PIXELS_TO_METERS),
+				(body.getPosition().y * Constantes.PIXELS_TO_METERS));
+		body.getPosition().x=0;
+	}
+
+	@Override
+	public void draw(Batch batch, float parentAlpha) {
+		sprite.draw(batch);
+		sprite.setRotation((float)Math.toDegrees(body.getAngle()));
+	}
+}

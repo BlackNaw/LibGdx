@@ -7,6 +7,8 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
+import global.Constantes;
+
 public class MyCamera extends OrthographicCamera {
 
 	public Viewport viewport;

@@ -6,8 +6,8 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.World;
 
-import comun.Constantes;
 import control.Game;
+import global.Constantes;
 
 public class MyGdxGame extends ApplicationAdapter {
 

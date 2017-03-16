@@ -38,6 +38,7 @@ public class Game {
 			input = new InputMovil();
 		} else {
 			input = new InputDesktop();
+			((InputDesktop)input).addObserver(myDebug);
 		}
 		/////////////////////////////
 		Gdx.input.setInputProcessor(input);

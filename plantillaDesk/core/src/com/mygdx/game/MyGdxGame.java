@@ -10,32 +10,32 @@ import comun.Constantes;
 import control.Game;
 
 public class MyGdxGame extends ApplicationAdapter {
-	
+
 	World world;
-	
+
 	Game game;
-	
+
 	@Override
-	public void create () {
-		world = new World(new Vector2(Constantes.GRAVEDAD_X,Constantes.GRAVEDAD_Y), true);
-		game= new Game(world);
+	public void create() {
+		world = new World(new Vector2(Constantes.GRAVEDAD_X, Constantes.GRAVEDAD_Y), true);
+		game = new Game(world);
 	}
 
 	@Override
-	public void render () {
-		Gdx.gl.glClearColor(1, 0, 0, 1);
+	public void render() {
+		Gdx.gl.glClearColor(0, 0, 0, 0);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		world.step(1f/60f, 6, 2);
-		
-		//Actua
+		world.step(1f / 60f, 6, 2);
+
+		// Actua
 		game.act();
-		
-		//Dibuja
+
+		// Dibuja
 		game.render();
 	}
-	
+
 	@Override
-	public void dispose () {
+	public void dispose() {
 		world.dispose();
 		game.dispose();
 	}

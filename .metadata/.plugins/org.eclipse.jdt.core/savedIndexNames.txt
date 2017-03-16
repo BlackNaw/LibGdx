@@ -1,15 +1,10 @@
 INDEX VERSION 1.129+C:\Trabajo\Libgdx\Proyectos\.metadata\.plugins\org.eclipse.jdt.core
-437057622.index
-2262516845.index
-3612141874.index
-2928412922.index
-343722841.index
-3066781146.index
 1807161182.index
-366886434.index
-2536651376.index
-1926595795.index
-1648461065.index
+437057622.index
 517323679.index
+2536651376.index
+3653077314.index
 151795435.index
-2177084590.index
+4249310506.index
+366886434.index
+3066781146.index

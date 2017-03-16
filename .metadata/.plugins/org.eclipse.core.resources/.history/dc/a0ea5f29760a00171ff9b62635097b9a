@@ -1,0 +1,23 @@
+package control;
+
+import com.badlogic.gdx.physics.box2d.World;
+import com.badlogic.gdx.scenes.scene2d.Stage;
+
+public class GestorActores {
+
+	/**
+	 * Crea los actores
+	 * @param world
+	 */
+	public GestorActores(World world,Stage stage) {
+		this.anadirActoresStage(stage);
+	}
+	
+	
+	/**
+	 *  Añade los actores al stage
+	 * @param stage
+	 */
+	private void anadirActoresStage(Stage stage) {
+    }
+}

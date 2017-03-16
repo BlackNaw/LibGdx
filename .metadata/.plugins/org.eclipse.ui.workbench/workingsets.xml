@@ -33,20 +33,20 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Laberinto-desktop" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidsUno-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidsUno-android" type="4"/>
-<item elementID="=pinball-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pinball-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidsUno-html" type="4"/>
-<item elementID="=Laberinto-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Laberinto-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AsteroidUno-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroids" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PreAngryBirds-desktop" type="4"/>
-<item elementID="=pinball-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pinball-desktop" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidsUno-desktop" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/asteroidUno" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Snake-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PreAngryBirds-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Laberinto" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PreAngryBirds" type="4"/>
-<item elementID="=pinball" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pinball" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1485420302252_3" label="Escenario" name="Escenario">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EscenarioUno" type="4"/>
@@ -57,7 +57,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AccionesSimples" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1485504886807_4" label="Camaras" name="Camaras">
-<item elementID="=CamarasUno-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CamarasUno-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CamarasUno-desktop" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CamarasUno" type="4"/>
 </workingSet>
@@ -68,16 +68,16 @@
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1488526098697_6" label="Ashley" name="Ashley">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PongAshleyL" type="4"/>
-<item elementID="=Pong-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Pong-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ProyectoUnoAshley-core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ProyectoUnoAshleyL" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ProyectoUnoAshley-desktop" type="4"/>
-<item elementID="=Pong-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Pong-desktop" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1489135182029_7" label="pinball" name="pinball">
-<item elementID="=pinball-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=pinball-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=pinball" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pinball-desktop" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pinball-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pinball" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1489679817287_8" label="Plantilla" name="Plantilla">
 <item elementID="=plantillaDesk" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -91,8 +91,8 @@
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484649454662_0" label="Window Working Set" name="Aggregate for window 1484649454662"/>
 <mruList name="Plantilla"/>
-<mruList name="Camaras"/>
 <mruList name="Trabajos"/>
+<mruList name="Camaras"/>
 <mruList name="Ashley"/>
 <mruList name="Teoria"/>
 </workingSetManager>
